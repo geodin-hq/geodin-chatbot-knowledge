@@ -1,7 +1,6 @@
 # GeoDin Chatbot Knowledge Base — Index
 
 > Knowledge base for the GeoDin website AI chatbot (n8n).
-> Last updated: 2026-03-20
 
 ---
 
@@ -15,7 +14,7 @@ The knowledge base is organized into two parts:
 ### Naming Convention
 
 ```
-Part[X]_[Category]_[Topic]_[YYYY-MM-DD].md
+Part[X]_[Category]_[Topic].md
 ```
 
 ---

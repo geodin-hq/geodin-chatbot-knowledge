@@ -39,7 +39,7 @@ GeoDin Onsite is priced **per device, per year** — not per user. This is desig
 | **Standalone** (without a GeoDin license) | €695.00 |
 | **Ecosystem discount** (for existing GeoDin customers) | €495.00 |
 
-- **Free trial:** 6 months, full functionality, available to all customers — not tied to any GeoDin license purchase.
+- **Free trial:** 1 month, full functionality, available to all customers — not tied to any GeoDin license purchase.
 - **Volume discounts:** Available from 6+ devices.
 - **Enterprise deployments:** 20+ devices — contact sales for custom quote.
 
@@ -58,7 +58,7 @@ The license includes Tier 1 support. Optional services include:
 
 Yes, for both products:
 - **GeoDin Core:** Free **30-day trial** with no credit card required. No limit on the number of trial users per organization. Trial extensions are available upon request — there is no hard stop.
-- **GeoDin Onsite:** Free **6-month trial** with full functionality, available to all customers. Not tied to any GeoDin license purchase. Designed so teams can replace paper workflows and prove value in real field conditions before procurement.
+- **GeoDin Onsite:** Free **1-month trial** with full functionality, available to all customers. Not tied to any GeoDin license purchase. Designed so teams can replace paper workflows and prove value in real field conditions before procurement.
 
 The GeoDin team actively encourages thorough evaluation before purchase.
 
@@ -76,7 +76,7 @@ GeoDin was founded over **30 years ago** (approximately 1995-1996) in East Berli
 
 ### Q: How established is GeoDin in the market?
 
-GeoDin has been used in over **14,000+ geotechnical projects** across **38 countries**. The entire German geotechnical industry uses GeoDin as a de facto standard — government ministries (Ministry of Defence, Ministry of Land Development) and geological authorities require GeoDin database handover as a contractual project deliverable.
+GeoDin has been used in over **15,000+ geotechnical projects** across **38 countries**. The entire German geotechnical industry uses GeoDin as a de facto standard — government ministries (Ministry of Defence, Ministry of Land Development) and geological authorities require GeoDin database handover as a contractual project deliverable.
 
 ### Q: Who are your clients?
 
@@ -209,7 +209,7 @@ GeoDin supports geotechnical and environmental data management across:
 
 ### Q: Is GeoDin right for small firms?
 
-Yes. GeoDin scales from a single user with a local Access database on a laptop to enterprise deployments with SQL server databases and dozens of concurrent users. Smaller firms benefit from the Individual license (€2,394.70 / $2,011), the 30-day free trial, and the fact that GeoDin Ground is included free. GeoDin Onsite can be trialled for 6 months at no cost before committing.
+Yes. GeoDin scales from a single user with a local Access database on a laptop to enterprise deployments with SQL server databases and dozens of concurrent users. Smaller firms benefit from the Individual license (€2,394.70 / $2,011), the 30-day free trial, and the fact that GeoDin Ground is included free. GeoDin Onsite can be trialled for 1 month at no cost before committing.
 
 ### Q: Is GeoDin right for very large projects?
 
@@ -223,7 +223,7 @@ Yes. GeoDin supports multi-company collaboration. In consortium scenarios, all m
 
 ## Gaps & Review Notes
 
-- ~~**Onsite pricing status**~~ — EUR pricing (€495/€695 structure) and the 6-month trial are confirmed and live as of 2026-03-20.
+- ~~**Onsite pricing status**~~ — EUR pricing (€495/€695 structure) and the 1-month trial are confirmed and live as of 2026-04-28.
 - **Onsite USD pricing** — USD equivalents for Onsite are not yet listed. Confirm if USD pricing will be added.
 - **Volume discount tiers** — the document says discounts start from 6 devices, but specific discount percentages are not defined. Add if available.
 - **Symmetry partnership details** — confirm current status and coverage areas for North America.

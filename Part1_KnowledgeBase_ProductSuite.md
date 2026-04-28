@@ -160,7 +160,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 | Educational License | €100/year | $100/year |
 
 - **GeoDin Ground:** Free with any licence. Civil 3D users who only consume data need no GeoDin licence.
-- **GeoDin Onsite:** €695/device/year standalone, or €495/device/year with ecosystem discount (existing GeoDin customers). Per-device pricing (not per-user) — designed for shared field tablets. Volume discounts from 6+ devices (contact sales). Free trial available.
+- **GeoDin Onsite:** €695/device/year standalone, or €495/device/year with ecosystem discount (existing GeoDin customers). Per-device pricing (not per-user) — designed for shared field tablets. Volume discounts from 6+ devices (contact sales). Free 1-month trial with full functionality, available to all customers.
 - **Free 30-day trial** of GeoDin Core available. No credit card required. Trial can be extended on request.
 - **Standard Onboarding:** €1,200 — includes 3-hour beginner training (online, up to 5 attendees) + 1-hour follow-up Q&A within 2 weeks.
 - **Custom Training & Consulting:** Case-by-case pricing (contact sales). Covers advanced features, multi-site deployments, enterprise integrations.
@@ -172,7 +172,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 - GeoDin Ground requires Autodesk Civil 3D 2025 or 2026
 
 ### Scale
-- Used in 14,000+ geotechnical projects across 38+ countries
+- Used in 15,000+ geotechnical projects across 38+ countries
 - Demonstrated with projects containing 3,600+ location objects covering 700 km with 5 companies collaborating
 - Team of ~30 people; parent company Fugro (~10,000-11,000 employees globally)
 
@@ -186,7 +186,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 
 3. **Number of supported languages:** Sources variously state 7 languages (marketing page lists English, German, French, Italian, Spanish, Portuguese, Turkish) and 8 languages (transcript mentions "8 languages: German, French, Russian, Spanish, English, Portuguese, and 2 others"). The exact list should be reconciled — specifically whether Russian, Italian, and Turkish are all supported, and what the remaining language(s) might be.
 
-4. **Project count discrepancy:** The overview page says "14,000 geotechnical projects" while the transcript says "15,000 geo projects." The chatbot should use the more conservative/official figure or the latest confirmed number.
+4. ~~**Project count discrepancy**~~ **RESOLVED:** Website (geodin.com) and company page both cite 15,000+ projects as the canonical figure. The chatbot should use 15,000+.
 
 5. **GeoDin Ground as standalone viewer:** One source mentions "GeoDin Ground is also available as a standalone free app for viewing 3D borehole visualizations" (separate from Civil 3D). This is mentioned only once and should be verified — is there a standalone Ground viewer, or does it strictly require Civil 3D?
 
