@@ -42,7 +42,7 @@ Key features:
 - Photography and field observations.
 - Data export as XML (GeoDinML format) for import into GeoDin Core.
 
-GeoDin Onsite is included free with any GeoDin subscription.
+GeoDin Onsite is licensed per device per year (€495/device/year for existing GeoDin customers, €695/device/year standalone). A 1-month free trial with full functionality is available to all customers.
 
 ### Q: What is GeoDin Ground?
 

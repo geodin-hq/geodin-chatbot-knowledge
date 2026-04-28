@@ -49,7 +49,7 @@ These are the current standard list prices published on geodin.com. The chatbot 
 |---|---|---|
 | Standalone (no Core license) | ~€695/device/year | For customers without GeoDin Core |
 | Ecosystem discount (with Core license) | ~€495/device/year | For existing GeoDin Core customers |
-| Free trial | €0 | 6-month full-functionality trial for all customers |
+| Free trial | €0 | 1-month full-functionality trial for all customers |
 
 - Priced **per device, not per user** — field tablets are shared across crews and shifts.
 - Volume discounts available from **6+ devices** (contact sales).
@@ -89,7 +89,7 @@ These are the current standard list prices published on geodin.com. The chatbot 
 | Direct price figures (any product) | Yes | Share standard list prices from knowledge base, always qualified as indicative. Guide to sales for tailored pricing or website checkout for self-service purchase |
 | Feature differences between tiers | Yes | Use product knowledge to explain what each tier includes |
 | GeoDin Core free trial | Yes | Link to https://www.geodin.com/try-geodin-now |
-| GeoDin Onsite free trial (6 months) | Yes | Mention that Onsite offers a generous free trial with full functionality |
+| GeoDin Onsite free trial (1 month) | Yes | Mention that Onsite offers a free trial with full functionality |
 | GeoDin Onsite is priced per device, not per user | Yes | Explain the per-device model and why it benefits field teams (shared tablets, predictable budgeting) |
 | GeoDin Onsite volume discounts exist | Yes | "Volume discounts are available for larger deployments — our sales team can provide a quote." |
 | GeoDin Ground on Autodesk App Store | Yes | Link provided above |
@@ -125,7 +125,7 @@ The lead represents a team, department, or organization.
 ### Flow C — GeoDin Onsite Inquiry
 The lead specifically asks about field data collection or GeoDin Onsite.
 
-1. Highlight the **6-month free trial** with full functionality — no commitment needed.
+1. Highlight the **1-month free trial** with full functionality — no commitment needed.
 2. Share the **per-device pricing**: €695/device/year standalone, or €495/device/year for existing GeoDin Core customers. Frame as standard list prices.
 3. For volume deals (6+ devices) or enterprise deployments (20+), redirect to sales for tailored pricing.
 4. If they mention a competitor (Aldoa, eFieldData, OpenGround Data Collector, GEO5), position GeoDin Onsite's value:

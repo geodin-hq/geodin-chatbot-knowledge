@@ -116,7 +116,7 @@ When a visitor asks about a competitor or alternative:
 - Organizations that prioritize SaaS convenience over data control
 
 ### Where GeoDin Wins
-- **Maturity and reliability:** GeoDin has 30+ years of continuous development and is proven in 14,000+ projects across 38 countries. BoreDM is still evolving and refining core functionality
+- **Maturity and reliability:** GeoDin has 30+ years of continuous development and is proven in 15,000+ projects across 38 countries. BoreDM is still evolving and refining core functionality
 - **Data security and ownership:** GeoDin guarantees complete data sovereignty. BoreDM allows internal team access to customer data, raising potential compliance and confidentiality concerns
 - **Standards compliance:** GeoDin supports 11+ international geotechnical standards with automatic enforcement. BoreDM's compliance coverage is narrower
 - **Feature depth:** GeoDin supports 60+ test types, cross-sections, heatmaps, GIS integration, and Civil 3D integration. BoreDM focuses primarily on boring log production
@@ -161,7 +161,7 @@ When a visitor asks about a competitor or alternative:
 - **More functionality:** GeoDin Ground already exceeds the capabilities of Geotechnical Modeler, including full 3D ground modeling, virtual boreholes, strata solids, volumetric calculations, and metadata-rich visualization
 - **Free availability:** GeoDin Ground is a free plug-in available on the Autodesk App Store. No GeoDin license is required for Civil 3D users to view data
 - **Autodesk Gold Partnership:** Fugro holds a Gold Partnership with Autodesk, announced at Autodesk University 2024
-- **Active development:** GeoDin Ground releases have been frequent (v1.5 October 2025, v1.6 November/December 2025) with planned features including cross-section generation in Civil 3D, geophysics visualization, and groundwater surfaces
+- **Active development:** GeoDin Ground has shipped regular releases (v1.0.0 in June 2025, v1.5.17 in September 2025 adding virtual logs and Civil 3D imperial-mode support) with planned features including cross-section generation in Civil 3D, geophysics visualization, and groundwater surfaces
 - **Complete ecosystem:** Unlike Geotechnical Modeler which was only a viewer, GeoDin provides the full pipeline from field data collection (Onsite) through database management (Core) to design visualization (Ground)
 
 ### Where Geotechnical Modeler Had an Edge
@@ -318,7 +318,7 @@ When a visitor asks about a competitor or alternative:
 4. **Migration is not disruptive.** Always emphasize that GeoDin has proven migration paths, built-in converters (for gINT), and standard format support.
 5. **Data ownership is a differentiator, not an attack.** When discussing data control, frame it as "GeoDin gives you choice" rather than "competitor X locks you in."
 6. **Free trial removes risk.** Always mention the 30-day free trial with no credit card required.
-7. **Credibility anchors:** 30+ years of development, 14,000+ projects, 38 countries, Autodesk Gold Partnership, clients like Arcadis, Siemens, CDM Smith, and TenneT.
+7. **Credibility anchors:** 30+ years of development, 15,000+ projects, 38 countries, Autodesk Gold Partnership, clients like Arcadis, Siemens, CDM Smith, and TenneT.
 
 ---
 

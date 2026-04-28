@@ -20,7 +20,7 @@
 
 ## 2. Scale Metrics
 
-- Used in over 14,000 geotechnical projects (some sources say 15,000+).
+- Used in over 15,000 geotechnical projects.
 - Deployed across 38 countries.
 - Supports 11 international geotechnical standards (ASTM, DIN, EN ISO, BS 5930, GOST, NEN, ONORM, KA5, and others).
 - Available in 7-8 languages: English, German, French, Italian, Spanish, Portuguese, Russian, and Turkish.
@@ -176,7 +176,7 @@ The following items should be verified, expanded, or clarified by the GeoDin tea
 
 2. **Fugro acquisition date:** Described as "approximately 25 years ago." Exact year should be confirmed.
 
-3. **Project count discrepancy:** The GeoDin Overview states "14,000+ projects" while the competitive positioning transcript says "15,000+ geo projects." The correct current figure should be confirmed -- this number likely grows over time, so the latest verified figure should be used.
+3. ~~**Project count discrepancy**~~ **RESOLVED:** geodin.com and the company page both cite 15,000+ projects. Use 15,000+.
 
 4. **Number of countries:** Stated as 38 in the Overview. This should be verified as current.
 
