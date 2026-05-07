@@ -21,7 +21,7 @@ GeoDin Core is the central desktop platform for geotechnical data management. It
 - **Built-in GIS map:** Embedded map environment with OpenStreetMap base tiles, shapefile support, WMS/TMS layers, heat maps, elevation/contour data, and mini-graphic borehole previews.
 - **Data import:** Supports XLS, XLSX, CSV, TXT, MDB, ACCDB, SHP, LAS, GeoJSON, GML, and ODBC connections. Includes a dedicated gINT migration/converter tool.
 - **Data export:** PDF (single, per-object, or continuous), DXF, PNG, EMF, CSV, XLSX, AGS (4.0.4, 4.1.1), Leapfrog, SHP, GML, KML, JSON, XML, HTML.
-- **AGS export:** Three-click conversion to AGS format for delivery to platforms like OpenGround or Plaxis.
+- **Native AGS workflow:** Officially listed by the AGS Committee as AGS-compatible software (ags.org.uk/data-format/software/). Dedicated **AGS object type** built around AGS 4.1.1 and 4.0.4, covering **86 data types** with full AGS dictionaries, fill patterns, and map visualization. **AGS Importer** (4-step guided process: configure → select → validate → import) and **AGS Exporter** (5-step guided process) — fully validated import → native edit → validated export, all in one platform. Independent from the legacy G1 object type and G1 AGS Exporter, which remain available for projects using that workflow.
 - **Calculation engine:** Built-in library of several hundred standard geotechnical equations. Companies can store proprietary formulas shared only within their team.
 - **Multi-language:** Interface and data output in 8 languages (English, German, French, Italian, Spanish, Portuguese, Turkish, Russian). Users can work in one language and deliver in another.
 - **SQL queries and publication methods:** Write custom SQL to fetch, reformat, and export data. Publication methods are reusable SQL-based export configurations.
@@ -137,8 +137,8 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 
 ### Standards Supported
 - 11+ international geotechnical standards: ASTM, BS 5930, DIN 4022/23, DIN EN ISO 14688/89, DIN 4943, SEP1/SEP3, DIN EN ISO 22475, NEN, ONORM, GOST, KA5
-- AGS export: versions 4.0.4 and 4.1.1
-- Both GeoDin (import + export) and GeoDin Onsite (export) are officially listed on the AGS website (ags.org.uk/data-format/software/) as AGS-compatible software
+- **AGS native workflow:** dedicated AGS object type (86 data types) with purpose-built AGS Importer (4-step) and AGS Exporter (5-step) for AGS 4.0.4 and 4.1.1, with AGS data validation at every stage
+- Both GeoDin (full import + export) and GeoDin Onsite (export only) are officially listed on the AGS website (ags.org.uk/data-format/software/) as AGS-compatible software
 
 ### Integrations
 | Integration | Type | Notes |
@@ -162,8 +162,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 - **GeoDin Ground:** Free with any licence. Civil 3D users who only consume data need no GeoDin licence.
 - **GeoDin Onsite:** €695/device/year standalone, or €495/device/year with ecosystem discount (existing GeoDin customers). Per-device pricing (not per-user) — designed for shared field tablets. Volume discounts from 6+ devices (contact sales). Free 1-month trial with full functionality, available to all customers.
 - **Free 30-day trial** of GeoDin Core available. No credit card required. Trial can be extended on request.
-- **Standard Onboarding:** €1,200 — includes 3-hour beginner training (online, up to 5 attendees) + 1-hour follow-up Q&A within 2 weeks.
-- **Custom Training & Consulting:** Case-by-case pricing (contact sales). Covers advanced features, multi-site deployments, enterprise integrations.
+- **Training & onboarding:** Always arranged and priced by sales — no published list price. Standard recommendation for new users is a **3-hour beginner training session** followed by a **1-hour Q&A session booked within two weeks** of the first session. Advanced (~6h) and custom expert tracks are also available, scoped per customer. In North America, official GeoDin training is also delivered by Symetri.
 
 ### System Requirements
 - Processor: 1 GHz or higher
@@ -198,7 +197,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 
 9. **gINT converter completeness:** The migration tool currently imports locations, coordinates, and general data. Sample data and measurement data import is still being developed. The chatbot should set appropriate expectations about migration scope.
 
-10. ~~**Consulting/training pricing currency**~~ **RESOLVED:** Standard Onboarding is €1,200. Custom training/consulting is case-by-case (contact sales).
+10. ~~**Consulting/training pricing currency**~~ **RESOLVED (2026-05-07):** All training is case-by-case via sales — no published price. Standard recommendation: 3-hour beginner training + 1-hour follow-up Q&A within two weeks. The previously listed €1,200 Standard Onboarding figure has been retired.
 
 11. **Minimum system requirements seem very low:** 1 GHz processor and 1 GB RAM are listed on the features page, but these seem like legacy minimums. Practical requirements for larger projects likely differ. Consider adding recommended specs.
 

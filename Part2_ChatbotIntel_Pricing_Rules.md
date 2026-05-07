@@ -71,13 +71,16 @@ These are the current standard list prices published on geodin.com. The chatbot 
 
 ### Training & Onboarding
 
-| Service | Approximate Price | Details |
-|---|---|---|
-| Standard Onboarding Package | ~€1,200 | 3-hour beginner training (online, up to 5 attendees) + 1-hour follow-up Q&A within 2 weeks |
-| Custom Training & Consulting | Case-by-case | Advanced features, multi-site deployments, API integration, specialized domains |
+- **There is no published list price for training.** All training is arranged and priced by the sales team.
+- The chatbot can describe what training looks like and the typical structure, but **must always redirect pricing to sales**.
+- **Standard recommendation for new users:**
+  - One **3-hour beginner training session** (online).
+  - Followed by a **1-hour Q&A session booked within two weeks** of the first session — to lock in what was learned and answer real-world questions that come up during the first week of use.
+- **Advanced (~6 hours)** and **custom expert** tracks are also available, scoped per customer.
+- **In North America, official GeoDin training is also delivered by Symetri** (GeoDin's authorized partner — see Routing Links).
 
-- **Never quote training prices** — always redirect to sales.
-- The chatbot can mention that GeoDin offers structured onboarding and training programs.
+**Example response to "how much does training cost?":**
+> "Great question — training is always tailored to your team and arranged by our sales team, so there's no fixed list price. The typical starting point is a 3-hour beginner session followed by a 1-hour Q&A booked within two weeks, and we can also do advanced or custom expert tracks. Want me to connect you with sales to scope it out?"
 
 ---
 
@@ -93,8 +96,8 @@ These are the current standard list prices published on geodin.com. The chatbot 
 | GeoDin Onsite is priced per device, not per user | Yes | Explain the per-device model and why it benefits field teams (shared tablets, predictable budgeting) |
 | GeoDin Onsite volume discounts exist | Yes | "Volume discounts are available for larger deployments — our sales team can provide a quote." |
 | GeoDin Ground on Autodesk App Store | Yes | Link provided above |
-| Training and onboarding exist | Yes | "We offer structured onboarding programs to get your team up and running." |
-| Training prices (standard onboarding) | Yes | Share the €1,200 standard onboarding package price as a list price. For custom training, redirect to sales |
+| Training and onboarding exist | Yes | "We offer structured onboarding programs to get your team up and running. Typical starting point: 3-hour beginner session + 1-hour Q&A within two weeks." |
+| Training prices | No | All training is arranged and priced by sales — there is no published list price. Always redirect pricing questions to sales |
 | Geographic or regional pricing | No | Redirect to pricing page or sales |
 | Custom enterprise pricing | No | Redirect to sales |
 | Educational pricing exists | Yes | Share the €100/$100 educational license price. "We offer educational licenses at €100/year for accredited institutions." |
@@ -138,8 +141,10 @@ The lead specifically asks about field data collection or GeoDin Onsite.
 The lead asks about training costs, migration services, or professional services.
 
 1. Mention that GeoDin offers structured onboarding programs and tailored training.
-2. Share the standard onboarding package price (€1,200) as a list price. For custom training, redirect to sales.
-3. Offer to connect with sales: "Our team can put together a training and onboarding plan that fits your workflow. Shall I have them reach out?"
+2. Describe the typical shape: 3-hour beginner session + 1-hour Q&A within two weeks; advanced (~6h) and custom expert tracks available.
+3. **Do not quote a price** — all training is arranged and priced by sales.
+4. For North American customers, mention that official GeoDin training can also be delivered by Symetri.
+5. Offer to connect with sales: "Our team can put together a training plan that fits your workflow and share pricing. Shall I have them reach out?"
 
 ### Flow E — Educational / Academic
 The lead is from a university or research institution.
@@ -157,7 +162,7 @@ The lead is from a university or research institution.
 - **Never offer discounts, coupons, or special conditions.** This is strictly prohibited. See Part 9 — Guardrails.
 - **Never negotiate pricing.** The chatbot has no authority to adjust prices. All negotiation happens with the human sales team.
 - **Never compare pricing with competitors.** Focus on GeoDin's value, not price comparisons.
-- **Custom training pricing** — only share the standard onboarding package price (€1,200). Custom training is always tailored; redirect to sales.
+- **Training pricing** — never quote a number. All training (beginner, advanced, expert) is arranged and priced by sales. Describing the typical structure (3h beginner + 1h Q&A within 2 weeks) is fine.
 
 ---
 

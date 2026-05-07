@@ -84,7 +84,17 @@ GeoDin is trusted by major engineering firms including **Arcadis, Siemens, CDM S
 
 ### Q: What is the GeoDin team size?
 
-The GeoDin team has approximately **30 people**, with technical support and consultants based in Berlin, Germany. In North America, **Symmetry** is the exclusive partner, with a commercial team and a technical support/training team. US-based sales personnel are available for in-person visits.
+The GeoDin team has approximately **30 people**, with technical support and consultants based in Berlin, Germany. In North America, **Symetri** (Autodesk Platinum Partner, 1,000+ employees) is GeoDin's authorized partner, providing US/Canada customer support, official GeoDin training, customization advice, and event/conference representation. US-based sales personnel are also available for in-person visits.
+
+### Q: Who is Symetri and what do they do for GeoDin customers?
+
+Symetri is GeoDin's **authorized partner for North America**, announced 15 September 2025 at Autodesk University in Nashville. For US and Canadian GeoDin clients, Symetri provides:
+- **Customer support** — first point of contact for support tickets in North America (https://www.symetri.us, 800.336.3375).
+- **Official GeoDin training** — delivered locally by Symetri's team.
+- **Customization and add-ins** — tailored advisory for client-specific solutions.
+- **Industry events and conferences** — representing GeoDin in-region.
+
+Symetri is part of Addnode Group AB (Nasdaq Stockholm-listed), founded in Sweden in 1989, with 1,000+ employees across Europe and the US. Their joint focus with GeoDin is bridging **below-ground intelligence to above-ground design**, pairing GeoDin's subsurface data expertise with Symetri's strength in design technology and digital delivery (Autodesk Platinum Partner).
 
 ### Q: What is the relationship with Autodesk?
 
@@ -133,7 +143,13 @@ Because gINT files are highly customizable in structure, migration is not a simp
 
 ### Q: Why are gINT users moving to GeoDin?
 
-gINT is being **retired/sunset by Bentley** (sunset date pushed back to 2027). Users are being pushed toward OpenGround or seeking alternatives. Common pain points with gINT include:
+gINT is being **retired by Bentley/Seequent** with a confirmed timeline (per Seequent's official FAQ at seequent.com/help-support/gint-migration-openground/):
+- **New perpetual licenses and Virtuoso annual subscriptions are available only until December 31, 2027.**
+- **Existing-customer support continues only until the end of 2028**, on a "Reasonable Endeavor" basis (limited by legacy third-party dependencies, OS/Office compatibility, and the age of the technology).
+
+Users are being pushed toward OpenGround or seeking alternatives — and **GeoDin is positioned as the best alternative for gINT users**: 30+ years of active development, transparent all-inclusive pricing, full data ownership, a built-in gINT Converter, and a centralized database to replace gINT's per-project file model. GeoDin published a dedicated thought-leadership piece on this transition, *"Life after gINT — Rethinking geotechnical data management for a new era"*, on geoengineer.org (March 2026) — useful to share with visitors weighing what a real successor platform should look like. Dedicated side-by-side comparison page: https://www.geodin.com/alternative-for/gint.
+
+Common pain points with gINT include:
 - Files disappearing on cloud/network storage.
 - Inability to fix issues due to lack of support from Bentley.
 - Many tests not supported, requiring parallel Excel spreadsheets.
@@ -226,8 +242,8 @@ Yes. GeoDin supports multi-company collaboration. In consortium scenarios, all m
 - ~~**Onsite pricing status**~~ — EUR pricing (€495/€695 structure) and the 1-month trial are confirmed and live as of 2026-04-28.
 - **Onsite USD pricing** — USD equivalents for Onsite are not yet listed. Confirm if USD pricing will be added.
 - **Volume discount tiers** — the document says discounts start from 6 devices, but specific discount percentages are not defined. Add if available.
-- **Symmetry partnership details** — confirm current status and coverage areas for North America.
+- ~~**Symmetry partnership details**~~ **RESOLVED (2026-05-07):** Partner is **Symetri** (corrected from "Symmetry"). Authorized GeoDin partner for North America since 15 Sept 2025. Provides US/Canada support, official GeoDin training, customization, and event representation. Source: https://www.symetri.us / GeoDin Contact Us page.
 - **ROI data / time savings** — one source mentions "from 40 to 5 days for field project delivery." Validate this metric and add more if available.
 - **Case study details** — specific named project outcomes (beyond SuedLink) would add credibility. Consider adding Arcadis, TenneT, or CDM Smith use case summaries if available.
 - **Refund/guarantee policy** — the competitor context file mentions "100% refund guarantee if a better offer is found." Verify if this is an active policy.
-- **Custom training pricing** — the old onboarding figure ($3,500) from transcripts has been replaced with the current €1,200 standard package. Confirm no other standard packages exist.
+- ~~**Custom training pricing**~~ **RESOLVED (2026-05-07):** All training is now arranged and priced by sales — no published list price (the previous €1,200 Standard Onboarding figure has been retired). Standard recommendation: 3-hour beginner training + 1-hour Q&A within two weeks. In North America, training can also be delivered by Symetri.

@@ -32,7 +32,7 @@ When a visitor asks about a competitor or alternative:
 - **Pricing transparency:** GeoDin offers a single all-inclusive package. OpenGround uses persona-based subscription licensing with separate cloud service subscriptions, user base fees, and user advanced fees
 - **Civil 3D integration depth:** GeoDin Ground (free plug-in) provides full 3D ground modeling with solids, surfaces, metadata, and virtual boreholes. OpenGround's Geotechnical Extension is limited to 2D profile views and cannot generate cross-sections within its own environment
 - **Cost of field deployment:** GeoDin Onsite is €495/device/year (ecosystem discount) with per-device pricing built for shared tablets. OpenGround Data Collector uses per-user persona licensing (~€240-1,500+/user/year) which scales badly when field teams share devices
-- **Support responsiveness:** GeoDin's concentrated team of approximately 30 specialists provides personalized, responsive support. Customers have cited slow ticket resolution and "we can't do that yet" responses from Bentley as a reason for switching
+- **Support responsiveness:** GeoDin's concentrated team of approximately 30 specialists provides personalized, responsive support, with **Symetri** (Autodesk Platinum Partner) delivering dedicated US/Canada support, training, and customization in North America. Customers have cited slow ticket resolution and "we can't do that yet" responses from Bentley as a reason for switching
 - **Interoperability:** GeoDin integrates with both Autodesk and Esri ecosystems, plus Leapfrog, QGIS, and standard formats (AGS, DXF, GEF, etc.). OpenGround is described by prospects as operating within its own ecosystem
 - **Configuration simplicity:** OpenGround's template studio and configuration packs have a steep learning curve. GeoDin offers 200+ pre-built templates and an extensible data model that users can customize without specialized training
 
@@ -56,13 +56,16 @@ When a visitor asks about a competitor or alternative:
 
 ---
 
-## 2. gINT (by Bentley Systems)
+## 2. gINT (by Bentley Systems / Seequent) — GeoDin is the best alternative for gINT
 
 ### What They Offer
 - Desktop-based geotechnical data management software with a long history in the industry
 - Uses Microsoft Access databases (.mdb, .gpj, .accdb) as its data format
 - Separate project files per project (no centralized database)
-- Being sunset by Bentley, with support extended only until December 31, 2028 (limited support)
+- **Being phased out** (per Seequent's official FAQ at seequent.com/help-support/gint-migration-openground/):
+  - **New perpetual licenses and Virtuoso annual subscriptions are available only until December 31, 2027.**
+  - Support for existing customers with active SELECT/E365/EPS or Virtuoso Subscription continues **only until the end of 2028**, on a "Reasonable Endeavor" basis (limited by legacy third-party dependencies, OS/Office compatibility, security, and the age of the technology).
+  - SELECT contracts and Pre-Paid Annual Subscriptions can only be purchased for periods ending on or before that date.
 
 ### Target Market / Personas
 - Established geotechnical firms, particularly in North America, that have used gINT for years or decades
@@ -76,7 +79,7 @@ When a visitor asks about a competitor or alternative:
 - **International standards:** GeoDin supports 11+ international geotechnical standards natively. gINT has limited standards support, requiring parallel Excel workflows for unsupported tests
 - **Data ownership:** GeoDin guarantees permanent data access regardless of license status. Bentley's licensing model does not offer the same guarantee
 - **Cost efficiency:** GeoDin individual license is approximately $2,000; professional/network license approximately $2,800 with transparent pricing. gINT pricing was historically higher with less transparency
-- **Customer support:** GeoDin team actively collaborates on custom formulas and test tables. gINT users report Bentley declining feature requests with "it's never going to happen"
+- **Customer support:** GeoDin team actively collaborates on custom formulas and test tables, with **Symetri** providing dedicated North American support, official training, and customization advice for US and Canadian gINT switchers. gINT users report Bentley declining feature requests with "it's never going to happen"
 - **Multi-language support:** GeoDin supports 7+ languages with automatic dictionary translation. gINT is English-focused
 
 ### Where gINT May Have an Edge
@@ -122,7 +125,7 @@ When a visitor asks about a competitor or alternative:
 - **Feature depth:** GeoDin supports 60+ test types, cross-sections, heatmaps, GIS integration, and Civil 3D integration. BoreDM focuses primarily on boring log production
 - **Storage flexibility:** GeoDin supports on-premises, private cloud, or hybrid deployment. BoreDM is cloud-only
 - **Integration ecosystem:** GeoDin integrates with Civil 3D, Leapfrog, ArcGIS/QGIS, and exports to AGS, DXF, shapefiles, and many other formats
-- **Support infrastructure:** GeoDin has 10+ dedicated geotechnical support specialists with in-person training available. BoreDM's support infrastructure is still developing
+- **Support infrastructure:** GeoDin has 10+ dedicated geotechnical support specialists with in-person training available, plus **Symetri** as the authorized North American partner (Autodesk Platinum Partner, 1,000+ employees) providing US/Canada support, official GeoDin training, and customization. BoreDM's support infrastructure is still developing
 - **Transparent pricing:** GeoDin's all-inclusive pricing is published on geodin.com. BoreDM's pricing is often unclear until late in evaluation
 
 ### Where BoreDM May Have an Edge

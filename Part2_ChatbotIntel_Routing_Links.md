@@ -14,9 +14,16 @@
 | **Book a demo** | Capture email, trigger sales handoff | Chatbot says: "Our sales team will reach out to book a demo." Trigger → sales@geodin.com + HubSpot |
 | **General sales inquiry** | Capture email, trigger sales handoff | sales@geodin.com + HubSpot |
 | **Technical documentation** | Link to docs site | https://docs.geodin.com |
-| **Help / support (existing customer)** | Email to docs team | docs@geodin.com |
+| **Help / support (existing customer, EU/global)** | Email to docs team | docs@geodin.com |
+| **Help / support (existing customer, North America)** | Route to Symetri (authorized N.A. partner) | https://www.symetri.us · 800.336.3375 |
 | **Complex technical question** | Email to support team | support@geodin.com |
 | **Speak to a human** | Handoff to sales | sales@geodin.com + HubSpot (see Part 8 — Handoff Protocol) |
+| **GeoDin vs gINT comparison / gINT migration** | Link to alternative-for page | https://www.geodin.com/alternative-for/gint |
+| **gINT discontinuation thought-leadership** | Link to GeoDin's geoengineer.org article ("Life after gINT — Rethinking geotechnical data management for a new era", March 2026) | https://www.geoengineer.org/news/life-after-gint-rethinking-geotechnical-data-management-for-a-new-era |
+| **GeoDin vs OpenGround comparison** | Link to alternative-for page | https://www.geodin.com/alternative-for/openground |
+| **GeoDin vs BoreDM comparison** | Link to alternative-for page | https://www.geodin.com/alternative-for/boredm |
+| **GeoDin Ground vs Geotechnical Modeler** | Link to alternative-for page | https://www.geodin.com/alternative-for/geotechnical-modeler |
+| **AGS data management feature deep-link** | Link to feature page | https://www.geodin.com/features/ags-data-management |
 | **GeoDin homepage** | Link | https://www.geodin.com |
 
 ---
@@ -55,7 +62,9 @@ GeoDin does **not** use a self-service calendar booking tool. The chatbot must *
 
 ## 4. Support Routing (Existing Customers)
 
-If the visitor identifies as an existing GeoDin customer:
+If the visitor identifies as an existing GeoDin customer, route by region:
+
+### EU / Global
 
 | Need | Route |
 |---|---|
@@ -64,7 +73,22 @@ If the visitor identifies as an existing GeoDin customer:
 | Documentation / self-service | https://docs.geodin.com |
 | Account or billing questions | sales@geodin.com |
 
-**The chatbot should first attempt to answer from its knowledge base.** Only route to email when the question exceeds its knowledge or the customer explicitly requests human help.
+### North America (US & Canada) — Symetri
+
+GeoDin's authorized North American partner is **Symetri** (Autodesk Platinum Partner, 1,000+ employees). North American customers can access dedicated technical support, official GeoDin training, and customization through Symetri.
+
+| Need | Route |
+|---|---|
+| US/Canada technical support | https://www.symetri.us · 800.336.3375 |
+| Official GeoDin training (N.A.) | Symetri (delivers locally on GeoDin's behalf) |
+| Customization & add-ins (N.A.) | Symetri |
+| Documentation / self-service | https://docs.geodin.com |
+| Sales / commercial discussion | sales@geodin.com (or via Symetri's local team) |
+
+**The chatbot should first attempt to answer from its knowledge base.** Only route to email/partner when the question exceeds its knowledge or the customer explicitly requests human help.
+
+**Example for a US support question:**
+> "For dedicated US support, our authorized North American partner Symetri handles GeoDin support tickets. You can reach them at symetri.us or 800.336.3375. Want me to also flag this internally so the GeoDin Berlin team is aware?"
 
 ---
 
