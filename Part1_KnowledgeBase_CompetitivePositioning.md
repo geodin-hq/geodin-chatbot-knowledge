@@ -31,7 +31,7 @@ When a visitor asks about a competitor or alternative:
 - **Data ownership and residency:** GeoDin lets organizations choose where data lives (on-premises, private cloud, or hybrid). OpenGround is cloud-only, which can conflict with data sovereignty requirements, especially for government and defence projects
 - **Pricing transparency:** GeoDin offers a single all-inclusive package. OpenGround uses persona-based subscription licensing with separate cloud service subscriptions, user base fees, and user advanced fees
 - **Civil 3D integration depth:** GeoDin Ground (free plug-in) provides full 3D ground modeling with solids, surfaces, metadata, and virtual boreholes. OpenGround's Geotechnical Extension is limited to 2D profile views and cannot generate cross-sections within its own environment
-- **Cost of field deployment:** GeoDin Onsite is €495/device/year (ecosystem discount) with per-device pricing built for shared tablets. OpenGround Data Collector uses per-user persona licensing (~€240-1,500+/user/year) which scales badly when field teams share devices
+- **Cost of field deployment:** GeoDin Onsite uses **per-device pricing** built for shared tablets, which scales well when field crews rotate tablets across shifts and projects. OpenGround Data Collector uses **per-user persona licensing**, which penalizes the way field teams actually work (one device, many users). *Do not quote competitor pricing figures to visitors — the only price the chatbot may share is GeoDin's own.*
 - **Support responsiveness:** GeoDin's concentrated team of approximately 30 specialists provides personalized, responsive support, with **Symetri** (Autodesk Platinum Partner) delivering dedicated US/Canada support, training, and customization in North America. Customers have cited slow ticket resolution and "we can't do that yet" responses from Bentley as a reason for switching
 - **Interoperability:** GeoDin integrates with both Autodesk and Esri ecosystems, plus Leapfrog, QGIS, and standard formats (AGS, DXF, GEF, etc.). OpenGround is described by prospects as operating within its own ecosystem
 - **Configuration simplicity:** OpenGround's template studio and configuration packs have a steep learning curve. GeoDin offers 200+ pre-built templates and an extensible data model that users can customize without specialized training
@@ -251,7 +251,7 @@ When a visitor asks about a competitor or alternative:
 - **Data reuse:** GeoDin data survives the project and feeds databases, design tools, and future analysis. eFieldData data serves the immediate job record
 - **Standards compliance:** GeoDin enforces 11+ international geotechnical standards at the point of entry. eFieldData uses form-level validation
 - **Design integration:** GeoDin connects field data to Civil 3D, GIS, and Leapfrog. eFieldData has no design ecosystem integration
-- **Pricing model:** GeoDin Onsite at €495/device/year scales well with shared tablets. eFieldData charges ~€400-900/user/year
+- **Pricing model:** GeoDin Onsite is priced **per-device**, which scales well with shared field tablets. eFieldData uses **per-user** pricing, which penalizes shared-device field workflows. *Do not quote competitor pricing figures.*
 
 ### Where eFieldData May Have an Edge
 - **Billing and scheduling integration:** eFieldData includes business workflow tools GeoDin does not offer
@@ -282,7 +282,7 @@ When a visitor asks about a competitor or alternative:
 
 ### Where GEO5 May Have an Edge
 - **Calculation focus:** If the end goal is a GEO5 calculation, their data collector is the natural input
-- **Price:** €0-300/user/year, lower entry point
+- **Price:** lower entry point than a full geotechnical data management platform — but not directly comparable, as scope is different. *Do not quote a specific competitor price.*
 
 ### Key Positioning Line
 > "If calculations are the end goal, GEO5 is fine. If data reuse and compliance matter, GeoDin Onsite wins."
@@ -302,8 +302,8 @@ When a visitor asks about a competitor or alternative:
 | **Civil 3D integration** | Native 3D (free plug-in) | 2D profiles only (paid) | None | None | None | None | None |
 | **Field data collection** | Onsite (per-device, Windows) | Data Collector (per-user, Android) | None | N/A | Mobile-first (iOS/Android/Web) | Mobile (iOS/Android) | Windows |
 | **Pricing model** | Per-device (Onsite) / per-license (Core) | Persona subscriptions + cloud fees | Legacy | Less transparent | Per-user SaaS | Per-user/month | Per-user/license |
-| **Approx. Core license** | €2,395 individual / €3,395 network | ~€999+/user/year + cloud | Legacy (no new sales) | Not listed | Not listed | N/A | N/A |
-| **Approx. field app cost** | €495-695/device/year | ~€240-1,500+/user/year | N/A | N/A | ~€300-600/user/year | ~€400-900/user/year | €0-300/user/year |
+| **Approx. Core license (GeoDin only — do not quote competitor figures)** | €2,394.70 individual / €3,395 network | *Persona-based subscription + cloud fees — do not quote.* | Legacy (no new sales) | *Do not quote.* | *Do not quote.* | N/A | N/A |
+| **Approx. field app cost (GeoDin only — do not quote competitor figures)** | €495 (ecosystem) / €695 (standalone) per-device/year | *Per-user persona licensing — do not quote figures.* | N/A | N/A | *Per-user SaaS — do not quote figures.* | *Per-user — do not quote figures.* | *Do not quote.* |
 | **Scales well in field** | Yes (shared devices) | No (per-user) | N/A | N/A | No (per-user) | No (per-user) | Neutral |
 | **gINT migration tool** | Yes (built-in converter) | Partial (Bentley ecosystem) | N/A | No | No | No | No |
 | **Multi-language** | 7+ languages | Limited | English-focused | Limited | English (US) | Limited | Limited |
