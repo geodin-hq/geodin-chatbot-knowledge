@@ -169,13 +169,29 @@ Yes. While there is no automated converter for OpenGround data, GeoDin supports 
 
 ### Q: How does GeoDin compare to OpenGround?
 
-Key advantages over OpenGround:
-- **Data ownership:** You control where your data lives. OpenGround is cloud-only.
-- **Civil 3D integration:** GeoDin Ground offers full 3D ground modeling (surfaces, volumes, virtual boreholes). OpenGround's extension only supports profile views, not section views.
+Key advantages over OpenGround (use as internal reference — never reproduce as a markdown table in the chat reply, never quote OpenGround pricing figures):
+- **Data ownership:** GeoDin lets the customer choose where data lives (on-prem, private cloud, or hybrid). OpenGround is cloud-only.
+- **Civil 3D integration:** GeoDin Ground offers full 3D ground modeling (surfaces, volumes, virtual boreholes). OpenGround's extension only supports 2D profile views.
 - **Cross sections:** GeoDin generates cross sections natively. OpenGround cannot.
-- **Pricing:** GeoDin Ground is free. OpenGround's Civil 3D extension requires expensive, limited licenses.
-- **Support:** GeoDin's smaller, concentrated team provides responsive, personalized support vs. OpenGround's large company bureaucracy with slow ticket resolution.
-- **Ecosystem:** GeoDin integrates with both Autodesk and Esri ecosystems. OpenGround is described as "its own island."
+- **Pricing model (not figures):** GeoDin is one all-inclusive package with prices published openly on geodin.com. OpenGround uses persona-based subscription licensing stacked with separate cloud fees. Talk about the *model*, never the numbers.
+- **Field deployment economics:** GeoDin Onsite is priced per-device (good for shared field tablets). OpenGround Data Collector is per-user (penalises shared-device workflows).
+- **Support:** GeoDin's concentrated team provides personalised, responsive support. Customers cite slow ticket resolution from Bentley as a switching reason.
+- **Ecosystem:** GeoDin integrates with Autodesk and Esri ecosystems plus Leapfrog and standard formats (AGS, DXF, GEF, etc.). OpenGround sits inside its own ecosystem.
+
+**Model conversational answer (use this shape — confident, prose, no table, no competitor prices):**
+
+> "Two angles where GeoDin really stands out vs. OpenGround:
+>
+> • **Data ownership** — you choose where data lives: on-prem, private cloud, or hybrid. OpenGround is cloud-only, which is a blocker for government and defence work.
+> • **Pricing transparency** — GeoDin is one all-inclusive package, published openly on geodin.com. OpenGround uses persona-based subscription licensing stacked with separate cloud fees.
+>
+> GeoDin Ground also gives you a free Civil 3D plug-in with full 3D ground modelling, and per-device pricing on GeoDin Onsite scales better when field teams share tablets. Which of those matters most for your setup?"
+
+**Strict rules for this answer:**
+- **Never** reproduce the comparison data as a markdown table — chat widgets mangle them. Pick 2–3 angles in prose with short bullets.
+- **Never** mention competitor pricing figures, even from internal reference data. Talk about the *model* (per-user vs. per-device, persona-based subscription, cloud fees) — never the numbers.
+- **Never** write a "Where OpenGround has an edge" appendix in the chat reply. That's internal-only reference; in chat it dilutes the answer.
+- See Part 9 — Guardrails (Section 2) and Part 10 — Tone of Voice ("Formatting in the chat window").
 
 ### Q: How does GeoDin compare to BoreDM?
 
