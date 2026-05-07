@@ -79,7 +79,14 @@ Multiple ground description standards can coexist within the same database simul
 
 ### Q: What AGS support does GeoDin have?
 
-GeoDin supports **AGS export** for versions 4.0.4 and 4.1.1. The AGS object type has a dedicated table structure that mimics AGS file groups and headers, allowing direct import of AGS files. Full AGS compatibility (including AGS as a native object type with AGS group naming and the ability to import AGS data directly into the G1 object type) is planned for H1 2026.
+GeoDin offers a **fully native AGS workflow** for AGS 4.1.1 and AGS 4.0.4 — and is **officially listed by the AGS Committee** as AGS-compatible software (ags.org.uk/data-format/software/).
+
+- **Dedicated AGS object type** (independent from the legacy G1 object type) covering **86 data types**, with comprehensive AGS dictionaries, fill patterns for geological layers, and map visualization built in.
+- **AGS Importer** — guided 4-step process: configure AGS standard → select files → validate against AGS rules → import. Validation runs *before* data enters the database, catching formatting errors, missing fields, and rule violations upfront.
+- **AGS Exporter** — guided 5-step process: select objects → choose standard (4.1.1 or 4.0.4) → fill in project and transmission details → validate → export. Every exported AGS file is fully validated.
+- **Lifecycle:** import AGS → edit natively in the AGS object type (borehole logs, geological descriptions, lab results) → export validated AGS — no manual conversion to/from Excel or CSV.
+
+The legacy G1 object type and G1 AGS Exporter remain available for projects that use that workflow. Both GeoDin (full import + export) and GeoDin Onsite (export only) are listed by the AGS Committee.
 
 ### Q: What test types are included?
 

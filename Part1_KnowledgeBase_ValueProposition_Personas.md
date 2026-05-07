@@ -39,8 +39,10 @@ Geotechnical data is one of the biggest contributors to cost overruns and design
 - **Full data ownership:** Customers control where data is stored (on-premises, company network, or cloud). GeoDin never accesses, hosts, or resells customer data.
 - **End-to-end workflow:** Field collection (Onsite) to database management (Core) to design visualization (Ground) -- one connected pipeline with no data re-entry.
 - **Standards compliance built in:** Automatic enforcement of 11+ international geotechnical standards at every step, from field entry through reporting.
+- **Native AGS workflow:** Officially listed by the AGS Committee as AGS-compatible software. Dedicated AGS object type (86 data types) with purpose-built AGS Importer and Exporter for AGS 4.1.1 and 4.0.4 — import, edit natively, and export fully validated AGS files without leaving the platform. Ends manual format conversions.
 - **Interoperability:** Open data philosophy with export to AGS, Leapfrog, Civil 3D, ArcGIS, QGIS, Excel, CSV, DXF, shapefiles, and more. Not a closed ecosystem.
 - **Data longevity:** Data stored in standard SQL databases (PostgreSQL, Oracle, MS SQL Server, or MS Access). Users retain access to their data regardless of licensing status.
+- **Local presence in North America via Symetri:** Authorized GeoDin partner for North America (Autodesk Platinum Partner, 1,000+ employees). Provides US/Canada support, official GeoDin training, customization advice, and event/conference representation — local service alongside the Berlin product team.
 
 ---
 
@@ -248,7 +250,7 @@ GeoDin serves multiple industries, each with specific data management needs:
 
 GeoDin positions itself as an alternative to:
 
-- **gINT (Bentley):** Being phased out (support extended to Dec 2028 with limited support). GeoDin offers a dedicated gINT converter and centralized database vs. gINT's per-project file approach.
+- **gINT (Bentley/Seequent) — GeoDin is positioned as the best alternative for gINT users:** Bentley/Seequent has confirmed (seequent.com/help-support/gint-migration-openground/) that **new perpetual licenses and Virtuoso annual subscriptions are available only until December 31, 2027**, and existing-customer support continues on a "Reasonable Endeavor" basis only **until the end of 2028**. GeoDin offers a dedicated built-in gINT Converter (.mdb / .gpj / .accdb), a centralized database vs. gINT's per-project file approach, and 30+ years of active development. GeoDin's own thought-leadership piece on this transition — *"Life after gINT — Rethinking geotechnical data management for a new era"* — was published on geoengineer.org (March 2026) and is the recommended reference for visitors thinking through a successor platform. Dedicated comparison page: geodin.com/alternative-for/gint.
 - **OpenGround (Bentley):** GeoDin offers customer-controlled data residency, free Civil 3D integration (vs. expensive limited licenses), cross-section generation, and more responsive support.
 - **BoreDM:** GeoDin positions as more mature and feature-rich with 30 years of development.
 - **Geotechnical Modeler (Autodesk, retired):** GeoDin Ground is its designated replacement with greater functionality.
@@ -269,7 +271,7 @@ Key differentiators across all competitors:
 
 2. **Lab Manager workflow completeness:** The sources explicitly note that lab workflow (scheduling, status tracking, automated distribution to lab teams) is a known gap. The persona section reflects what GeoDin can do today, but the chatbot should be aware that lab management is not a core strength and prospects with heavy lab workflow needs may find it insufficient.
 
-3. ~~**Pricing details may change**~~ **RESOLVED:** Verified pricing as of 2026-03-16: Individual License €2,394.70/$2,011, Professional (shared) License €3,395/$2,850, Educational €100. GeoDin Onsite: €695 standalone or €495 ecosystem discount. Standard Onboarding: €1,200 (3h training + 1h follow-up). Custom training/consulting: case-by-case.
+3. ~~**Pricing details may change**~~ **RESOLVED (2026-05-07):** Individual License €2,394.70/$2,011, Professional (shared) License €3,395/$2,850, Educational €100. GeoDin Onsite: €695 standalone or €495 ecosystem discount. **Training is no longer published with a fixed price** — all training is arranged and priced by sales (typical recommendation: 3-hour beginner session + 1-hour follow-up Q&A within two weeks; custom advanced/expert tracks available).
 
 4. **GIS Specialist persona:** This persona was inferred from the feature set (QGIS plugin, ArcGIS export, thematic mapping) rather than being explicitly called out as a target user in any source. Verify whether GIS specialists are a meaningful buying persona or whether GIS features are primarily used by geotechnical engineers themselves.
 
@@ -281,6 +283,6 @@ Key differentiators across all competitors:
 
 8. **New UI (Beta design mode):** A completely reimagined UI is announced for first half 2026. The chatbot should be aware of this to manage expectations about the current interface, which is acknowledged as having legacy UX friction points.
 
-9. **US market specifics:** North American sales and support are handled exclusively through Symetri (partner). The chatbot should know whether to direct US prospects to Symetri or to GeoDin directly.
+9. ~~**US market specifics**~~ **RESOLVED (2026-05-07):** North American support, training, and customization are handled by Symetri (Autodesk Platinum Partner, GeoDin's authorized N.A. partner since Sept 2025). US prospects with **support questions** should be routed to Symetri (https://www.symetri.us, 800.336.3375). Sales inquiries can be handled by GeoDin directly (sales@geodin.com) or via Symetri's local team — whichever the prospect prefers.
 
 10. **Mobile platform limitation:** GeoDin Onsite is Windows-only (not iOS or Android). This is a frequent question topic -- the chatbot must be clear about this to avoid misleading prospects who expect a mobile app.

@@ -104,11 +104,25 @@
 - GeoDin positions itself as the "subsurface layer" in the AEC ecosystem: Autodesk handles above-ground, Esri handles the surface, GeoDin handles the subsurface.
 
 ### Symetri (North America)
-- Symetri is the exclusive partner for GeoDin in North America, providing commercial and technical support/training in the US and Canada.
+- **Authorized GeoDin partner for North America**, announced 15 September 2025 at Autodesk University in Nashville. Showcased jointly at AU 2025 (booth #321) with a dedicated session on GeoDin Ground in Civil 3D.
+- Symetri's role for North American GeoDin clients:
+  - **Customer support** — first port of call for support tickets in the US and Canada.
+  - **Official GeoDin training** — Symetri delivers GeoDin training sessions in North America.
+  - **Customization & add-ins** — advises on tailored customer solutions.
+  - **Industry events, conferences, and client meetings** — represents GeoDin in-region.
+- About Symetri: founded in Sweden (1989), 1,000+ employees across Europe and the US, **Autodesk Platinum Partner**, part of Addnode Group AB (Nasdaq Stockholm). Focus areas: BIM, product design, and lifecycle solutions for AEC and manufacturing.
+- US contact: 800.336.3375 · marketing-us@symetri.com · https://www.symetri.us
+- GeoDin's joint messaging with Symetri: connect **below-ground intelligence to above-ground design** — pairing GeoDin's subsurface data expertise with Symetri's strength in design technology and digital delivery (Autodesk Platinum Partner).
+- Named principals: Devrez Karabacak (GeoDin, Head of Product) and Shaun T. Rogers (Symetri, VP Client Engagement).
 
-### AGS Committee Recognition
-- GeoDin earned official recognition from the AGS (Association of Geotechnical and Geoenvironmental Specialists) Committee for its AGS data format implementation.
-- Both GeoDin (import + export) and GeoDin Onsite (export only) are officially listed as AGS-compatible software on the AGS website (ags.org.uk/data-format/software/).
+### AGS Committee Recognition & Native AGS Workflow
+- GeoDin is **officially listed by the AGS (Association of Geotechnical and Geoenvironmental Specialists) Committee** as AGS-compatible software at ags.org.uk/data-format/software/.
+- Native AGS workflow built around AGS 4.1.1 and AGS 4.0.4 standards:
+  - Dedicated **AGS object type** (independent from the legacy G1 object type) covering **86 data types**, with comprehensive AGS dictionaries, fill patterns for geological layers, and map visualization built in.
+  - **AGS Importer** — guided 4-step process: configure standard → select files → validate against AGS rules → import. Built-in AGS data validation catches formatting errors, missing fields, and rule violations *before* data enters the database.
+  - **AGS Exporter** — guided 5-step process: select objects → choose standard → fill in project and transmission details → validate → export. Output is a fully validated AGS file every time.
+  - End-to-end fidelity from import through editing to export — no format conversion, no re-keying, no data loss.
+- Both GeoDin (full import + export) and GeoDin Onsite (export only) are listed by the AGS Committee.
 
 ### Esri Integration (In Development)
 - GeoDin and Esri are actively developing a direct integration (targeted end of 2026 or early 2027).
