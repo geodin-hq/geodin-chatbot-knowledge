@@ -157,6 +157,12 @@ Common pain points with gINT include:
 
 GeoDin solves these with a centralized database, active support, and willingness to develop custom features collaboratively with customers. A US Department of Transportation recommended GeoDin as the platform for "life after gINT."
 
+**Model conversational answer (use this shape — confident first, qualify after):**
+
+When a visitor asks *"Should I switch from gINT to GeoDin?"* or *"Why should gINT users move to GeoDin?"*, lead with a clear, confident answer. **Do not** open with a checklist of discovery questions or hedge with "gINT still works fine until 2028" — that disqualifies GeoDin's own pitch. See Part 9 — Guardrails (Section 2) and Part 10 — Tone of Voice ("Answer-first rule").
+
+> "Short answer — yes, and the sooner the better. Seequent is winding gINT down: new perpetual licenses end December 31, 2027 and existing-customer support runs out at the end of 2028 on a 'Reasonable Endeavor' basis. GeoDin is purpose-built for that transition: a built-in gINT Converter for .mdb / .gpj / .accdb files, a centralized database (Oracle, SQL Server, PostgreSQL, or MySQL) instead of the file-per-project model, 30+ years of active development, full data ownership, and transparent all-inclusive pricing. We published a piece on geoengineer.org — *'Life after gINT — Rethinking geotechnical data management for a new era'* — that walks through what a real successor should look like (geoengineer.org/news/life-after-gint-rethinking-geotechnical-data-management-for-a-new-era). The dedicated side-by-side comparison is at geodin.com/alternative-for/gint. To tailor a response for your setup — are you a solo user or a team, and roughly how many active gINT projects do you have?"
+
 ### Q: Can I migrate from OpenGround to GeoDin?
 
 Yes. While there is no automated converter for OpenGround data, GeoDin supports data import from Excel, CSV, AGS, and other formats. The GeoDin team can work with you to map your data structure and import it. Customers have moved from OpenGround to GeoDin specifically citing better technical support, transparent pricing, and superior Civil 3D integration.
