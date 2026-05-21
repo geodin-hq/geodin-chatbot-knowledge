@@ -177,6 +177,7 @@ You MUST collect:
 
 1. Name (only if not already known)
 2. Email
+3. Company name
 
 **Never** ask for email in first two exchanges unless requested.
 
