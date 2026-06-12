@@ -84,7 +84,7 @@ GeoDin is trusted by major engineering firms including **Arcadis, Siemens, CDM S
 
 ### Q: What is the GeoDin team size?
 
-The GeoDin team has approximately **30 people**, with technical support and consultants based in Berlin, Germany. In North America, **Symetri** (Autodesk Platinum Partner, 1,000+ employees) is GeoDin's authorized partner, providing US/Canada customer support, official GeoDin training, customization advice, and event/conference representation. US-based sales personnel are also available for in-person visits.
+The GeoDin team has approximately **30 people**, with technical support and consultants based in Berlin, Germany. GeoDin has three offices (see geodin.com/locations): **Berlin, Germany** (Wolfener Str. 36, 12681 Berlin), **Frederick, MD, USA** (4991 New Design Road Suite 105, Frederick MD 21703, +1 434 774 6995), and **Nootdorp, Netherlands** (Prismastraat 3, 2631 RS Nootdorp). All offices: sales@geodin.com. In North America, **Symetri** (Autodesk Platinum Partner, 1,000+ employees) is GeoDin's authorized partner, providing US/Canada customer support, official GeoDin training, customization advice, and event/conference representation. US-based sales personnel are also available for in-person visits.
 
 ### Q: Who is Symetri and what do they do for GeoDin customers?
 
@@ -98,7 +98,7 @@ Symetri is part of Addnode Group AB (Nasdaq Stockholm-listed), founded in Sweden
 
 ### Q: What is the relationship with Autodesk?
 
-Fugro holds a **Gold Partnership with Autodesk**, announced at Autodesk University 2024. GeoDin Ground is the designated replacement for Autodesk's own Geotech Modeller (which is being retired). Autodesk recognized that geotechnical data management requires different domain expertise and chose GeoDin as its strategic AEC partner for subsurface data.
+Fugro holds a **Gold Partnership with Autodesk**, announced at Autodesk University 2024. GeoDin Ground is the path forward as Autodesk retires its own Geotechnical Modeler — built in roadmap collaboration with Autodesk (do not claim a formal Autodesk endorsement or designation). Autodesk recognized that geotechnical data management requires different domain expertise and chose GeoDin as its strategic AEC partner for subsurface data.
 
 ### Q: What is the relationship with Esri?
 
@@ -137,7 +137,7 @@ GeoDin has a **dedicated gINT converter/import tool** built into the software. T
 2. **Import:** The GeoDinML file is imported into GeoDin, with feedback on any missing mandatory fields or parameters.
 3. **Verify:** GeoDin works closely with customers during migration to map gINT fields to GeoDin database fields and ensure data integrity.
 
-Because gINT files are highly customizable in structure, migration is not a simple one-click process — GeoDin's technical team collaborates with you to ensure no data is lost. Some customers have successfully migrated **30 years of legacy gINT data** using this tool.
+Because gINT files are highly customizable in structure, migration is not a simple one-click process — GeoDin's technical team collaborates with you to ensure no data is lost. **Scope today:** the converter brings across locations, general borehole data, lithology layers, and sampling data (the gINT PROJECT, LITHOLOGY, POINT, and SAMPLING groups); lab and measurement data are transitioned via GeoDin's configurable Excel importer (mapping your gINT export structure into GeoDin) or with hands-on help from the GeoDin team. Some customers have successfully migrated **30 years of legacy gINT data** this way.
 
 **Alternative approach:** Export gINT data to Excel, then use GeoDin's configurable Excel batch importer to map that structure into GeoDin's tabular format.
 

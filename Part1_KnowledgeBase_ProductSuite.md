@@ -45,7 +45,7 @@ GeoDin Onsite is a field data collection application for Windows tablets, laptop
 ### Key Capabilities
 - **Digital paper forms:** Touchscreen-native interface that replicates traditional driller paper forms. Supports both touchscreen and keyboard input.
 - **Real-time validation:** Checks data types, completeness, and enforces conditional rules based on the selected geotechnical standard. Prevents non-compliant data from being captured.
-- **Standard-compliant field logging:** Uses the same 11+ international standards and dictionaries as GeoDin Core. Soil descriptions are auto-generated from entered properties using the same builder approach as the desktop application.
+- **Standard-compliant field logging:** The current Onsite version supports **five geo-data standards** (a subset of the 11+ available in GeoDin Core), each with its associated description types — the default is BS 5930 / Clark and Walker, and the EN ISO 22475 standard is supported via the SEP 3 drilling report form. Soil descriptions are auto-generated from entered properties using the same builder approach as the desktop application. The standard must be chosen **before** creating forms — once a project has active forms it cannot be changed retroactively.
 - **QR code sample tracking:** Prints labels with QR codes (project ID, borehole ID, depth, sample type) via compatible mobile printers (e.g., Zebra, Bluetooth or wired). Maintains chain of identification from field to lab.
 - **Photo integration:** Capture and embed sample/site photographs directly into data entries.
 - **GPS integration:** Automatically logs device GPS coordinates during data capture.
@@ -65,20 +65,20 @@ GeoDin Onsite is a field data collection application for Windows tablets, laptop
 ## 3. GeoDin Ground
 
 ### What It Is
-GeoDin Ground is a free Autodesk Civil 3D plugin that visualizes subsurface geotechnical data directly within the Civil 3D design environment. It bridges the gap between geotechnical data and infrastructure design. Available on the Autodesk App Store at no cost. GeoDin is Autodesk's strategic AEC partner and the designated replacement for Autodesk's retiring Geotechnical Modeler.
+GeoDin Ground is a free Autodesk Civil 3D plugin that visualizes subsurface geotechnical data directly within the Civil 3D design environment. It bridges the gap between geotechnical data and infrastructure design. Available on the Autodesk App Store at no cost. GeoDin is Autodesk's strategic AEC partner, and GeoDin Ground is the path forward as Autodesk retires its Geotechnical Modeler (built in roadmap collaboration with Autodesk — do not claim a formal Autodesk endorsement or designation).
 
 ### Key Capabilities
 - **3D borehole visualization:** Renders boreholes as 3D cylinders ("borehole sticks") in Civil 3D, colour-coded by soil layer/ground unit, with metadata annotations and ground descriptions.
 - **Surface and volume generation:** "Draw Surfaces and Volumes" connects matching layers between neighbouring boreholes, generates TIN surfaces, and fills 3D volumes. Layers absent in a neighbouring borehole taper to zero thickness (lens modelling).
-- **Virtual boreholes:** Insert virtual boreholes to shape the ground model, test sensitivity, and identify areas needing more investigation. Can be created empty, by copying a nearby borehole, or interpolated from the existing model.
+- **Virtual boreholes (new in v1.5.17, Sep 2025):** Insert virtual boreholes to shape the ground model, test sensitivity, and identify areas needing more investigation. Can be created empty, by copying a nearby borehole, or interpolated from the existing model.
 - **Document access:** Open borehole logs, sample photos, and PDFs attached in GeoDin directly from within Civil 3D — no need to switch to GeoDin Core.
 - **Volume/quantity calculations:** Calculate cubic metres of soil/rock types along infrastructure paths for cost analysis and optimization.
 - **No GeoDin licence required for viewers:** Civil 3D plugin users do not need a GeoDin licence. Only the team members who manage and curate the database need licences.
 - **Data types visualized:** Borehole data, lithological layers, sample data, CPT data, 60+ geotechnical test types.
 - **ArcGIS integration path:** Borehole data can flow from GeoDin through Civil 3D into ArcGIS Online via the ArcGIS for AutoCAD plugin, published as feature layers with attached logs.
 - **IFC/BIM pathway:** Civil 3D can produce IFC 4.3 geotechnical strata and borehole data after import from GeoDin Ground (manual classification mapping required).
-- **Compatibility:** Civil 3D 2025 and 2026. Versions 2024 and earlier are not supported.
-- **Sample dataset included:** A demo dataset is bundled with the app for exploration.
+- **Compatibility:** Civil 3D 2025 and 2026. Versions 2024 and earlier are not supported. Since v1.5.17 (Sep 2025), Ground also has improved support for Civil 3D in **imperial mode**, improved accuracy for complex/overlapping borehole data, and an updated demo database.
+- **Sample dataset included:** The plugin installer bundles a sample database (the Denver Demo Database) for exploration; it can also be downloaded separately from resources.geodin.com.
 
 ### Who Uses It
 - Civil and design engineers who need ground visibility within their CAD environment
@@ -116,6 +116,11 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 
 ## 5. Key Technical Facts
 
+### Current Versions (as of June 2026)
+- **GeoDin (desktop):** Major version **15** (current 15.x line; e.g., the AGS plugins require 15.4 or higher). The installer supports in-place upgrades from GeoDin 9.6 and 10 while retaining system configuration; older versions need assistance from support@geodin.com. Updates run in-app via **System Configuration > Update GeoDin**. Note: any GeoDin Licence Service from a previous installation must be uninstalled before reinstalling GeoDin 15.
+- **GeoDin Ground:** **v1.5.17** (released 18 September 2025). Prior milestones: v1.0.0 (2 June 2025, Civil 3D 2025/2026 compatibility) and 0.9.0 (17 April 2025, first release).
+- **GeoDin Onsite:** Continuous releases via an automatic update check at launch — no public version numbering. New versions are backward compatible (old data opens in new versions) but not forward compatible; teams should stay on the latest version together.
+
 ### Deployment Model
 - **Three deployment options:**
   1. **Local:** Database on the user's machine (Access file). Fully offline-capable.
@@ -136,7 +141,8 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 - Used by government agencies and ministries of defence requiring data behind their own security layers.
 
 ### Standards Supported
-- 11+ international geotechnical standards: ASTM, BS 5930, DIN 4022/23, DIN EN ISO 14688/89, DIN 4943, SEP1/SEP3, DIN EN ISO 22475, NEN, ONORM, GOST, KA5
+- 11+ international geotechnical standards: ASTM D2487, BS 5930, DIN 4022/23, DIN EN ISO 14688/89, DIN 4943, SEP1/SEP3, DIN EN ISO 22475, NEN, ÖNORM B 4400, GOST 25100-95, KA5, ABNT NBR 6502/2022 (Brazil)
+- A regional geotechnical standard for **Hong Kong** (region-specific fill patterns) was added in release 15.3.39.85 (August 2025); custom standards can also be configured for specific project or regional requirements. Latest releases are published at geodin.com/release-notes.
 - **AGS native workflow:** dedicated AGS object type (86 data types) with purpose-built AGS Importer (4-step) and AGS Exporter (5-step) for AGS 4.0.4 and 4.1.1, with AGS data validation at every stage
 - Both GeoDin (full import + export) and GeoDin Onsite (export only) are officially listed on the AGS website (ags.org.uk/data-format/software/) as AGS-compatible software
 
@@ -167,8 +173,11 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 ### System Requirements
 - Processor: 1 GHz or higher
 - RAM: 1 GB minimum
-- OS: Windows 10 or Windows 11
-- GeoDin Ground requires Autodesk Civil 3D 2025 or 2026
+- OS: Windows 10 or Windows 11 (64-bit)
+- For client-server databases, the matching 64-bit database client is needed: SQL Server Native Client or ODBC driver (MS SQL Server), psqlODBC (PostgreSQL), or Oracle Instant Client (Oracle). MS Access is recommended only for single-user environments and smaller projects. GeoDin connects via FireDAC, including to Azure-hosted SQL Server.
+- **GeoDin Onsite** requires the **.NET 8 runtime** (Onsite prompts and redirects to Microsoft's download page if missing). License is hardware-bound and validated online at each launch, with a 30-day offline window that resets on each successful validation.
+- **GeoDin Ground** requires Autodesk Civil 3D 2025 or 2026
+- The **AGS import/export plugins** require GeoDin 15.4 or higher plus the .NET 8 Desktop Runtime
 
 ### Scale
 - Used in 15,000+ geotechnical projects across 38+ countries
@@ -195,7 +204,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 
 8. **Onsite test coverage:** Onsite supports "a subset of tests" (SPT, SCR/RQD, and other in-situ tests) but not the full 60+ lab tests. The exact list of supported field tests in Onsite is not enumerated in the sources.
 
-9. **gINT converter completeness:** The migration tool currently imports locations, coordinates, and general data. Sample data and measurement data import is still being developed. The chatbot should set appropriate expectations about migration scope.
+9. ~~**gINT converter completeness**~~ **RESOLVED (2026-06, docs.geodin.com):** The gINT Converter converts the gINT **PROJECT, LITHOLOGY, POINT, and SAMPLING** groups into GeoDinML (so locations, coordinates, general data, lithology/layers, and sampling data are covered). Measurement/lab test data is not part of the converter scope — transitioned via GeoDin's configurable Excel importer or with the GeoDin team's help; set expectations accordingly. The converter flags missing mandatory groups/parameters before conversion.
 
 10. ~~**Consulting/training pricing currency**~~ **RESOLVED (2026-05-07):** All training is case-by-case via sales — no published price. Standard recommendation: 3-hour beginner training + 1-hour follow-up Q&A within two weeks. The previously listed €1,200 Standard Onboarding figure has been retired.
 

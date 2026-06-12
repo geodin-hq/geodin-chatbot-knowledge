@@ -78,6 +78,8 @@ These are the current standard list prices published on geodin.com. The chatbot 
   - Followed by a **1-hour Q&A session booked within two weeks** of the first session — to lock in what was learned and answer real-world questions that come up during the first week of use.
 - **Advanced (~6 hours)** and **custom expert** tracks are also available, scoped per customer.
 - **In North America, official GeoDin training is also delivered by Symetri** (GeoDin's authorized partner — see Routing Links).
+- **Public training page:** https://www.geodin.com/book-a-training describes three tracks — **Beginner (~3 hours)**, **Advanced (~6 hours, customizable)**, and **Expert (custom-scoped — contact sales)**. Sessions run online (Microsoft Teams or FastViewer), typically in one-hour blocks (~40 min presentation + ~20 min Q&A), in **English or German**, with a demo database supplied and **up to 3 attendees included** (more attendees: contact sales).
+- The chatbot may link to the training page and describe this structure. **No training price is published — never quote a figure; pricing remains via sales** (unchanged rule).
 
 **Example response to "how much does training cost?":**
 > "Great question — training is always tailored to your team and arranged by our sales team, so there's no fixed list price. The typical starting point is a 3-hour beginner session followed by a 1-hour Q&A booked within two weeks, and we can also do advanced or custom expert tracks. Want me to connect you with sales to scope it out?"
@@ -170,5 +172,5 @@ The lead is from a university or research institution.
 
 - [ ] **Dynamic pricing scraping:** Ideally the chatbot could fetch live pricing from geodin.com/pricing at query time, localized to the visitor's region. This would allow it to say "Based on your region, the Professional plan is currently listed at €X/year" with a non-binding disclaimer. Requires technical feasibility check with the n8n freelancers.
 - [x] ~~Confirm GeoDin Onsite pricing status~~ — EUR pricing confirmed and live as of 2026-03-20.
-- [ ] Clarify whether the GeoDin Core free trial duration is 14 days or another period (the pricing page should confirm).
+- [x] ~~Clarify whether the GeoDin Core free trial duration is 14 days or another period~~ **RESOLVED (2026-06):** geodin.com pricing FAQ and try-geodin-now confirm **30 days**, no credit card, ends automatically, extensions on request.
 - [ ] Determine whether GeoDin Ground has its own pricing or is free with a Core license.

@@ -26,7 +26,7 @@ Part[X]_[Category]_[Topic].md
 | `Part1_KnowledgeBase_ValueProposition_Personas` | GeoDin's core value proposition, the problem it solves, and 8 target personas (Geotechnical Consultant, Project Manager, IT/Data Manager, Lab Manager, Civil Engineer, Environmental Consultant, Field Operator, GIS Specialist) with persona-specific pain points and how GeoDin addresses them. |
 | `Part1_KnowledgeBase_ProductSuite` | Detailed overview of the three GeoDin products (Core, Onsite, Ground), how they work together as an end-to-end suite, technical specs (deployment, databases, standards, integrations), and verified pricing. |
 | `Part1_KnowledgeBase_Credibility_Trust` | Company history, scale metrics (projects, countries), named clients (Arcadis, Fugro Brasil, German government), strategic partnerships (Autodesk Gold, Symetri, AGS), major reference projects, data sovereignty, and support model. |
-| `Part1_KnowledgeBase_CompetitivePositioning` | Structured competitive analysis for 7 competitors: OpenGround, gINT, BoreDM, Geotechnical Modeler (retired), Aldoa, eFieldData, GEO5 Data Collector. Each with: what they offer, where GeoDin wins, honest trade-offs, switching personas, and migration talking points. Includes a 7-competitor comparison table and chatbot conversation principles. |
+| `Part1_KnowledgeBase_CompetitivePositioning` | Structured competitive analysis for 9 competitors/adjacent tools: OpenGround, gINT, BoreDM, Geotechnical Modeler (retired), Aldoa, eFieldData, GEO5 Data Collector, Geolabor, Leapfrog (complementary). Each with: what they offer, where GeoDin wins, honest trade-offs, switching personas, and migration talking points. Includes a comparison table (incl. Geolabor) and chatbot conversation principles. |
 
 ## Part 2 — Chatbot Intelligence
 

@@ -31,9 +31,13 @@ GeoDin is a geotechnical data management software suite built by geotechnical en
 
 ### The problem GeoDin solves:
 
-Geotechnical data is one of the biggest contributors to cost overruns and design rework in infrastructure projects. An estimated one-third of infrastructure failures are attributed to insufficient ground data in the design process. Yet geotechnical data is commonly managed through fragmented workflows -- scattered Excel files, static PDFs, legacy software with proprietary formats, and paper field logs that must be manually re-entered.
+Geotechnical data is one of the biggest contributors to cost overruns and design rework in infrastructure projects. An estimated one-third of infrastructure failures are attributed to insufficient ground data in the design process, and site investigations typically receive around 0.3% of project cost versus the recommended 3%. Over half of organizations report that critical ground data sits isolated from their Civil 3D designs, leading to over-engineering and unexpected redesigns. Yet geotechnical data is commonly managed through fragmented workflows -- scattered Excel files, static PDFs, legacy software with proprietary formats, and paper field logs that must be manually re-entered.
+
+Infrastructure projects live in three digital worlds: above ground (designed in CAD/BIM tools like Civil 3D), on the surface (mapped in GIS platforms like ArcGIS), and below ground (the geotechnical data itself). GeoDin connects the third world to the other two -- designing with ground certainty in the Autodesk environment, and planning and sharing site investigations with geospatial context in the Esri environment -- so ground conditions become a known quantity designed around from day one, not a surprise found in the field.
 
 ### What GeoDin delivers:
+
+**The core idea — own your ground truth.** Many tools produce a deliverable: a log, a report, a 3D model. GeoDin is the *system of record for the ground* — the owned, durable source of truth underneath every deliverable, which outlives any single project or software choice. It sits as the open subsurface hub between Autodesk design tools (above ground) and Esri GIS, so ground data flows into how teams already work — field collection to central database to design — with no re-entry and no lock-in.
 
 - **Single source of truth:** One centralized database for all geotechnical data across projects, replacing fragmented files and spreadsheets.
 - **Full data ownership:** Customers control where data is stored (on-premises, company network, or cloud). GeoDin never accesses, hosts, or resells customer data.
@@ -43,6 +47,8 @@ Geotechnical data is one of the biggest contributors to cost overruns and design
 - **Interoperability:** Open data philosophy with export to AGS, Leapfrog, Civil 3D, ArcGIS, QGIS, Excel, CSV, DXF, shapefiles, and more. Not a closed ecosystem.
 - **Data longevity:** Data stored in standard SQL databases (PostgreSQL, Oracle, MS SQL Server, or MS Access). Users retain access to their data regardless of licensing status.
 - **Local presence in North America via Symetri:** Authorized GeoDin partner for North America (Autodesk Platinum Partner, 1,000+ employees). Provides US/Canada support, official GeoDin training, customization advice, and event/conference representation — local service alongside the Berlin product team.
+- **Current homepage positioning (geodin.com):** "Geotechnical data management that transforms geodata into decisions. The #1 geodatabase management software, built by geotechnical engineers. Your data stays yours forever with flexible storage options. Seamlessly connect with industry software while maintaining full control and transparency."
+- Brand tagline (trademarked): **BUILD ON SOLID GROUND™** — the mission statement used across geodin.com.
 
 ---
 
@@ -253,7 +259,7 @@ GeoDin positions itself as an alternative to:
 - **gINT (Bentley/Seequent) — GeoDin is positioned as the best alternative for gINT users:** Bentley/Seequent has confirmed (seequent.com/help-support/gint-migration-openground/) that **new perpetual licenses and Virtuoso annual subscriptions are available only until December 31, 2027**, and existing-customer support continues on a "Reasonable Endeavor" basis only **until the end of 2028**. GeoDin offers a dedicated built-in gINT Converter (.mdb / .gpj / .accdb), a centralized database vs. gINT's per-project file approach, and 30+ years of active development. GeoDin's own thought-leadership piece on this transition — *"Life after gINT — Rethinking geotechnical data management for a new era"* — was published on geoengineer.org (March 2026) and is the recommended reference for visitors thinking through a successor platform. Dedicated comparison page: geodin.com/alternative-for/gint.
 - **OpenGround (Bentley):** GeoDin offers customer-controlled data residency, free Civil 3D integration (vs. expensive limited licenses), cross-section generation, and more responsive support.
 - **BoreDM:** GeoDin positions as more mature and feature-rich with 30 years of development.
-- **Geotechnical Modeler (Autodesk, retired):** GeoDin Ground is its designated replacement with greater functionality.
+- **Geotechnical Modeler (Autodesk, retired):** GeoDin Ground is the path forward as Autodesk retires it, with greater functionality (built in roadmap collaboration with Autodesk — no formal endorsement claimed).
 
 Key differentiators across all competitors:
 - Full data ownership and customer-controlled residency
