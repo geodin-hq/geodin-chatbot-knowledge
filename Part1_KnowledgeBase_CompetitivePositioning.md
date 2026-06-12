@@ -101,6 +101,8 @@ When a visitor asks about a competitor or alternative:
 - Expert multilingual support team assists at every migration stage
 - Organizations upgrading from GeoDin 10 or older can contact support for guided migration
 - Hundreds of organizations have already completed the gINT-to-GeoDin transition
+- Client mandates are not a blocker: some agencies contractually require specific deliverable software on certain projects. Firms commonly run GeoDin in parallel with the legacy tool during a transition period, using GeoDin as the central database and exporting to client-required formats (AGS, Excel, DXF) where mandated
+- Reframe for evaluators: gINT was built around a **document-centric paradigm** — separate file per project, the report as the deliverable. Modern geotechnical data management treats the **database itself as the deliverable**: one living dataset that is collected, stored, standardized, visualized, and reported from. GeoDin's published article *"Life after gINT"* (geoengineer.org, March 2026) walks through this shift and the typical migration path (extract legacy .mdb/.gpj/.accdb files → convert → import into a centralized database → validate → rebuild report templates) — link available in Routing_Links
 
 ---
 
@@ -160,8 +162,9 @@ When a visitor asks about a competitor or alternative:
 - Infrastructure designers who wanted subsurface context without leaving Autodesk
 
 ### Where GeoDin Wins
-- **Direct replacement:** GeoDin Ground is the official designated replacement for Geotechnical Modeler. Autodesk selected Fugro/GeoDin as a strategic AEC partner because geotechnical data management requires specialized domain expertise
+- **Direct replacement path:** GeoDin Ground is the path forward as Autodesk retires Geotechnical Modeler — built in roadmap collaboration with Autodesk, which selected Fugro/GeoDin as a strategic AEC partner because geotechnical data management requires specialized domain expertise. (Do not claim a formal Autodesk endorsement or designation — none has been announced.)
 - **More functionality:** GeoDin Ground already exceeds the capabilities of Geotechnical Modeler, including full 3D ground modeling, virtual boreholes, strata solids, volumetric calculations, and metadata-rich visualization
+- **Database-backed, not file-based:** Geotechnical Modeler was essentially a file importer — it visualized CSV/AGS files with no persistent geotechnical data management behind it. GeoDin Ground reads directly from a live GeoDin database, so models update from the single source of truth instead of fragile file exports. Database management is GeoDin's core business
 - **Free availability:** GeoDin Ground is a free plug-in available on the Autodesk App Store. No GeoDin license is required for Civil 3D users to view data
 - **Autodesk Gold Partnership:** Fugro holds a Gold Partnership with Autodesk, announced at Autodesk University 2024
 - **Active development:** GeoDin Ground has shipped regular releases (v1.0.0 in June 2025, v1.5.17 in September 2025 adding virtual logs and Civil 3D imperial-mode support) with planned features including cross-section generation in Civil 3D, geophysics visualization, and groundwater surfaces
@@ -178,7 +181,7 @@ When a visitor asks about a competitor or alternative:
 ### Migration / Switching Talking Points
 - GeoDin Ground is free and available on the Autodesk App Store
 - No GeoDin license required for Civil 3D users — install and connect to any GeoDin database
-- Autodesk endorses GeoDin Ground as the path forward for geotechnical data in Civil 3D
+- GeoDin Ground is the path forward for geotechnical data in Civil 3D as Autodesk retires Geotechnical Modeler — built in roadmap collaboration with Autodesk and distributed free on the Autodesk App Store
 - Works with Civil 3D 2025 and 2026 versions
 - Virtual boreholes allow "drilling" anywhere in the 3D model to explore subsurface conditions without physical investigation
 
@@ -289,27 +292,93 @@ When a visitor asks about a competitor or alternative:
 
 ---
 
+## 8. Geolabor (SimpleLab Tecnologia)
+
+### What They Offer
+- Brazilian cloud-based LIMS (Laboratory Information Management System) for laboratory and field testing of soil, concrete, and asphalt
+- Three components: a lab/desktop module for executing ABNT NBR tests (granulometry, Proctor compaction, CBR, Atterberg limits, consolidation, shear, triaxial), Geolabor Campo (mobile field sampling app), and Geolabor Cliente (a cloud portal where the lab's clients view test status and approved results live, on a map)
+- Purpose-built ISO/IEC 17025 lab-accreditation workflow; also covers construction technological control (concrete, asphalt, earthworks QA/QC)
+- In market since 2014, Brazilian-native (PT-BR), with established references in Brazilian mining and construction
+
+### Target Market / Personas
+- Accredited commercial testing laboratories in Brazil
+- Lab-centric firms whose primary deliverable is approved test results delivered to clients
+- Organizations that prioritize a polished client-facing results portal
+
+### Where GeoDin Wins
+- **Whole-of-ground vs. lab-first (the category reframe):** Geolabor grew outward from the lab bench — the lab is the system. In GeoDin, the lab is one object type inside the system of record for the *entire* ground-data lifecycle: boreholes/sondagem, CPT/CPTu, rock core, instrumentation and monitoring, environmental, and lab tests in one queryable database. Field and lab data are unified, not reconciled by hand across two systems
+- **International standards and interoperability:** GeoDin runs multiple standards (ABNT, ASTM, BS, DIN, EN ISO) in one database and exports validated AGS 4.0.4 / 4.1.1 (mapping to AGS4 Brasil v1.0). Geolabor is focused on Brazilian standards, with documented exports via CSV, PDF, and BI feeds
+- **Native pipe into the design and analysis stack:** GeoDin feeds Autodesk Civil 3D via GeoDin Ground (aligned with Brazil's BIM Geotécnico direction), Leapfrog, and ArcGIS/QGIS. Lab data becomes modelling-ready source data, not a PDF attachment
+- **Data ownership and residency:** GeoDin runs on the customer's own database — on-premises, private cloud, or offline. Geolabor is vendor-hosted cloud SaaS
+- **Portfolio scale and reporting depth:** cross-project querying at enterprise scale plus 200+ pre-built report templates
+
+### Where Geolabor May Have an Edge
+- **Client-facing live results portal:** Geolabor Cliente lets a lab's customers watch test status and approved results arrive in real time on a dashboard/map. This is a genuinely strong capability — acknowledge it honestly. *The chatbot must not claim GeoDin matches this portal; if a visitor's core need is a live client-results portal, route them to sales for a current-capability conversation*
+- **ISO/IEC 17025 accreditation workflow** purpose-built for accredited labs
+- **Construction technological control breadth** (concrete/asphalt/earthworks QA/QC) beyond pure geotech
+- **Brazilian-native:** PT-BR product, local standards depth, mature local user community
+
+### Most Likely Evaluating / Switching Personas
+- Brazilian consultancies and asset owners whose ground data spans field investigation *and* lab, and who want one source of truth instead of a lab silo plus a separate field system
+- Firms working with international clients who need AGS or multi-standard interoperability
+- Teams feeding Leapfrog, Civil 3D, or GIS who need modelling-ready data rather than CSV/PDF exports
+
+### Migration / Switching Talking Points
+- The two products can be framed as answering different questions: Geolabor manages the lab; GeoDin is the system of record for the whole ground. Some organizations evaluate them for different layers of the same workflow
+- GeoDin imports CSV and Excel, so existing lab datasets are not stranded
+- GeoDin supports Portuguese (interface and support), and Fugro Brasil uses GeoDin operationally with Brazilian standards (NSPT, CPT)
+- Free 30-day trial, no credit card required
+
+### Key Positioning Line
+> "Geolabor is a strong lab system. The real question is whether your whole ground data — sondagem, CPT, instrumentation, lab, environmental — lives in one queryable source of truth that feeds your design and analysis tools, or whether the lab is one silo and the field is another."
+
+---
+
+## 9. Leapfrog (by Seequent / Bentley)
+
+### What They Offer
+- Dedicated 3D geological modelling software with advanced implicit modelling, widely used for subsurface visualization
+- Collaboration and model sharing require Central, a separate add-on product
+- Part of the Seequent portfolio (owned by Bentley Systems)
+
+### How GeoDin Relates to Leapfrog
+Leapfrog is primarily a **modelling tool**, not a geotechnical data management platform — so the two are often complementary rather than direct rivals.
+
+- **Interoperability, not lock-in:** GeoDin has a dedicated Leapfrog export button that formats borehole data into the structure Leapfrog expects. Teams that model in Leapfrog can keep doing so with GeoDin as the database behind it
+- **Modelling inside Civil 3D:** For teams in the Autodesk ecosystem, GeoDin Ground provides 3D ground modelling (borehole sticks, surfaces and volumes, virtual boreholes) directly inside Civil 3D — no separate modelling package or export step needed
+- **Cost model:** Leapfrog requires its own licensing, and collaboration adds Central as a separate product. GeoDin Ground is a free Civil 3D plug-in. *Do not quote competitor pricing figures — describe the model only.*
+- **Single source of truth:** GeoDin keeps the live database as the system of record; models are regenerated from current data rather than maintained as separate file-based projects
+
+### Where Leapfrog Has an Edge
+- **Modelling depth:** Leapfrog's implicit 3D geological modelling is more advanced than GeoDin Ground's current surfaces/volumes approach. For complex standalone geological modelling, it remains a strong dedicated tool — and GeoDin exports to it
+
+### Migration / Switching Talking Points
+- Teams don't have to choose: GeoDin manages the data and exports to Leapfrog whenever a Leapfrog model is needed
+- For Civil 3D-based design workflows, GeoDin Ground can cover much of the day-to-day 3D ground-model need without leaving the design environment
+
+---
+
 ## Summary Comparison Table
 
-| Dimension | GeoDin | OpenGround | gINT | BoreDM | Aldoa | eFieldData | GEO5 Data Collector |
-|---|---|---|---|---|---|---|---|
-| **Status** | Active, 30+ years | Active | Retiring (Dec 2028) | Active, early stage | Active | Active | Active |
-| **Core purpose** | Field-to-design ecosystem | Cloud collaboration | Desktop geodata mgmt | Modern boring logs | Field-to-report speed | CMT & inspection ops | Feed GEO5 calculations |
-| **Data mindset** | Long-term asset | Cloud-managed | File-based | Cloud-managed | Operational input | Job record | Calculation input |
-| **Deployment** | On-prem / cloud / hybrid | Cloud-only | Desktop (Access) | Cloud-only | Cloud-only (SaaS) | Cloud-only | Windows |
-| **Data ownership** | Full customer control | Vendor-hosted cloud | Local files | Vendor access possible | Vendor-hosted | Vendor cloud | Local files |
-| **International standards** | 11+ standards | Limited | Limited | Narrow | ASTM/AASHTO | Form-level | Limited |
-| **Civil 3D integration** | Native 3D (free plug-in) | 2D profiles only (paid) | None | None | None | None | None |
-| **Field data collection** | Onsite (per-device, Windows) | Data Collector (per-user, Android) | None | N/A | Mobile-first (iOS/Android/Web) | Mobile (iOS/Android) | Windows |
-| **Pricing model** | Per-device (Onsite) / per-license (Core) | Persona subscriptions + cloud fees | Legacy | Less transparent | Per-user SaaS | Per-user/month | Per-user/license |
-| **Approx. Core license (GeoDin only — do not quote competitor figures)** | €2,394.70 individual / €3,395 network | *Persona-based subscription + cloud fees — do not quote.* | Legacy (no new sales) | *Do not quote.* | *Do not quote.* | N/A | N/A |
-| **Approx. field app cost (GeoDin only — do not quote competitor figures)** | €495 (ecosystem) / €695 (standalone) per-device/year | *Per-user persona licensing — do not quote figures.* | N/A | N/A | *Per-user SaaS — do not quote figures.* | *Per-user — do not quote figures.* | *Do not quote.* |
-| **Scales well in field** | Yes (shared devices) | No (per-user) | N/A | N/A | No (per-user) | No (per-user) | Neutral |
-| **gINT migration tool** | Yes (built-in converter) | Partial (Bentley ecosystem) | N/A | No | No | No | No |
-| **Multi-language** | 7+ languages | Limited | English-focused | Limited | English (US) | Limited | Limited |
-| **Database architecture** | Centralized SQL (Oracle, PostgreSQL, SQL Server) | Cloud database | File-per-project | Cloud | Cloud | Cloud | Local |
-| **Offline capability** | Full (30-day validation) | After initial sign-in | Full | Requires connection | Requires connection | Partial | Yes |
-| **Data reuse across projects** | Yes (core value) | Limited (ecosystem-bound) | No (file-per-project) | Limited | Limited | Limited | No |
+| Dimension | GeoDin | OpenGround | gINT | BoreDM | Aldoa | eFieldData | GEO5 Data Collector | Geolabor |
+|---|---|---|---|---|---|---|---|---|
+| **Status** | Active, 30+ years | Active | Retiring (Dec 2028) | Active, early stage | Active | Active | Active | Active, ~10 years (Brazil) |
+| **Core purpose** | Field-to-design ecosystem | Cloud collaboration | Desktop geodata mgmt | Modern boring logs | Field-to-report speed | CMT & inspection ops | Feed GEO5 calculations | Lab/LIMS & construction QC |
+| **Data mindset** | Long-term asset | Cloud-managed | File-based | Cloud-managed | Operational input | Job record | Calculation input | Lab results & client reporting |
+| **Deployment** | On-prem / cloud / hybrid | Cloud-only | Desktop (Access) | Cloud-only | Cloud-only (SaaS) | Cloud-only | Windows | Cloud-only (SaaS) |
+| **Data ownership** | Full customer control | Vendor-hosted cloud | Local files | Vendor access possible | Vendor-hosted | Vendor cloud | Local files | Vendor-hosted cloud |
+| **International standards** | 11+ standards | Limited | Limited | Narrow | ASTM/AASHTO | Form-level | Limited | Brazilian (ABNT/NBR) focus |
+| **Civil 3D integration** | Native 3D (free plug-in) | 2D profiles only (paid) | None | None | None | None | None | None published |
+| **Field data collection** | Onsite (per-device, Windows) | Data Collector (per-user, Android) | None | N/A | Mobile-first (iOS/Android/Web) | Mobile (iOS/Android) | Windows | Mobile field app (Campo) |
+| **Pricing model** | Per-device (Onsite) / per-license (Core) | Persona subscriptions + cloud fees | Legacy | Less transparent | Per-user SaaS | Per-user/month | Per-user/license | *Do not quote.* |
+| **Approx. Core license (GeoDin only — do not quote competitor figures)** | €2,394.70 individual / €3,395 network | *Persona-based subscription + cloud fees — do not quote.* | Legacy (no new sales) | *Do not quote.* | *Do not quote.* | N/A | N/A | *Do not quote.* |
+| **Approx. field app cost (GeoDin only — do not quote competitor figures)** | €495 (ecosystem) / €695 (standalone) per-device/year | *Per-user persona licensing — do not quote figures.* | N/A | N/A | *Per-user SaaS — do not quote figures.* | *Per-user — do not quote figures.* | *Do not quote.* | *Do not quote.* |
+| **Scales well in field** | Yes (shared devices) | No (per-user) | N/A | N/A | No (per-user) | No (per-user) | Neutral | Not documented |
+| **gINT migration tool** | Yes (built-in converter) | Partial (Bentley ecosystem) | N/A | No | No | No | No | No |
+| **Multi-language** | 7+ languages | Limited | English-focused | Limited | English (US) | Limited | Limited | Portuguese (PT-BR) |
+| **Database architecture** | Centralized SQL (Oracle, PostgreSQL, SQL Server) | Cloud database | File-per-project | Cloud | Cloud | Cloud | Local | Cloud |
+| **Offline capability** | Full (30-day validation) | After initial sign-in | Full | Requires connection | Requires connection | Partial | Yes | Not documented |
+| **Data reuse across projects** | Yes (core value) | Limited (ecosystem-bound) | No (file-per-project) | Limited | Limited | Limited | No | Lab-scoped |
 
 ---
 
@@ -322,6 +391,7 @@ When a visitor asks about a competitor or alternative:
 5. **Data ownership is a differentiator, not an attack.** When discussing data control, frame it as "GeoDin gives you choice" rather than "competitor X locks you in."
 6. **Free trial removes risk.** Always mention the 30-day free trial with no credit card required.
 7. **Credibility anchors:** 30+ years of development, 15,000+ projects, 38 countries, Autodesk Gold Partnership, clients like Arcadis, Siemens, CDM Smith, and TenneT.
+8. **The system-of-record reframe.** When a visitor weighs GeoDin against a tool that wins on a single feature (mobile speed, modern UI, a results portal), acknowledge the feature honestly, then reframe around GeoDin's strength: "If the deliverable is the point, a focused tool can fit. If the ground data itself is the point — reused across projects, teams, and decades — you want a system of record you own." Useful follow-up question: where should the data live, and who should control it in ten years? Always frame this as GeoDin's strength, never as the competitor's flaw.
 
 ---
 
@@ -342,7 +412,7 @@ When a visitor asks about a competitor or alternative:
 - **No information on BoreDM's market traction,** customer base size, or recent product updates.
 
 ### Geotechnical Modeler
-- **This section is solid** since the product is retired and GeoDin Ground is the endorsed replacement. No gaps identified.
+- **This section is solid** since the product is retired and GeoDin Ground is the replacement path (no formal Autodesk endorsement — see Central_Reference §5 override). No gaps identified.
 
 ### Aldoa
 - **Comparison is field-collection focused.** The source document (GeoDin Onsite vs. Aldoa) covers field data collection in depth but does not address Aldoa's full platform capabilities (e.g., lab management, enterprise features, integrations beyond billing/scheduling).
@@ -350,7 +420,13 @@ When a visitor asks about a competitor or alternative:
 - **Aldoa's market presence and customer base** are not detailed beyond "strong adoption in US market." Specific customer references or market share data would strengthen this section.
 - **Aldoa's standards support** may extend beyond ASTM/AASHTO. Worth verifying.
 
+### Geolabor
+- **Live client-results portal parity is an open question.** Geolabor's standout feature is its client-facing portal showing live test status/results. Confirm GeoDin's current capability and roadmap before the chatbot implies parity — until confirmed, the chatbot must not claim GeoDin matches it and should route portal-centric prospects to sales.
+- **Geolabor's AGS support is unverified.** Documented exports are CSV / PDF / BI feeds. Do not assert that Geolabor lacks AGS; instead state positively that GeoDin's AGS workflow is native and validated.
+- Intelligence dates from June 2026 Brazil tech demos. Review as the Brazil go-to-market matures.
+
 ### General
-- **Leapfrog (Seequent/Bentley)** appears in the competitive positioning transcripts but is not one of the five requested competitors. Some visitors may ask about Leapfrog. Consider adding a brief section or note for chatbot reference.
-- **Soil Cloud** is mentioned once in the transcripts as a newer competitor (entered 2018). No detailed comparison exists. If visitors ask about it, the chatbot has minimal data to draw from.
+- ~~**Leapfrog (Seequent/Bentley)** appears in the competitive positioning transcripts but is not one of the five requested competitors. Some visitors may ask about Leapfrog. Consider adding a brief section or note for chatbot reference.~~ **RESOLVED (2026-06):** Section 9 (Leapfrog) added with complementary-tool framing.
+- **SoilCloud** — appears on prospect shortlists alongside GeoDin and OpenGround (e.g., port-infrastructure evaluations). If asked, position on GeoDin's maturity and longevity (30+ years, 15,000+ projects) without commenting on SoilCloud's features — detailed comparison data is not available.
+- **HoleBASE** — occasionally mentioned as an interim tool between gINT and OpenGround. No detailed comparison exists; respond with GeoDin's own strengths and offer a conversation with the team.
 - **All competitor information should be reviewed quarterly** to catch product changes, pricing updates, and new feature releases. Sources are dated primarily from late 2025 and early 2026.

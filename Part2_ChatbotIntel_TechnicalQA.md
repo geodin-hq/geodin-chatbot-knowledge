@@ -46,7 +46,7 @@ GeoDin Onsite is licensed per device per year (€495/device/year for existing G
 
 ### Q: What is GeoDin Ground?
 
-GeoDin Ground is a **free plug-in for Autodesk Civil 3D** (available in the Autodesk App Store). It is the designated replacement for Autodesk's Geotech Modeller (which is being retired).
+GeoDin Ground is a **free plug-in for Autodesk Civil 3D** (available in the Autodesk App Store). It is the path forward as Autodesk retires its Geotechnical Modeler — built in roadmap collaboration with Autodesk (do not claim a formal Autodesk endorsement or designation).
 
 Key features:
 - Renders 3D borehole sticks (cylinders) in Civil 3D with colour-coded soil layers, metadata, and ground descriptions.
@@ -57,6 +57,30 @@ Key features:
 - Works with Civil 3D 2025 and 2026 versions.
 
 Civil 3D users do not need a GeoDin license to use GeoDin Ground — only the database managers need licenses.
+
+### Q: What is the latest version? What's new?
+
+- **GeoDin (desktop):** The current major version is **GeoDin 15** (15.x line). The setup supports direct upgrades from GeoDin 9.6 and 10 while keeping your system configuration; updates run in-app via System Configuration > Update GeoDin.
+- **GeoDin Ground:** The current version is **v1.5.17** (released 18 September 2025). It introduced **virtual logs** for customizing the ground model and better support for **Civil 3D in imperial mode**, plus accuracy improvements for complex or overlapping borehole data and an updated demo database. v1.0.0 (June 2025) brought Civil 3D 2025/2026 compatibility.
+- **GeoDin Onsite:** Updated continuously — the app checks for updates automatically at every launch and installs the latest version in one click. New versions always open data created in older versions (backward compatible); the reverse is not guaranteed, so teams should update together.
+
+Full release notes for GeoDin Ground: https://docs.geodin.com/geodin-ground/support/release-notes
+
+### Q: Which ground description standards does GeoDin Ground support in Civil 3D?
+
+GeoDin Ground visualizes borehole data using these description standards:
+- EN ISO 14688 / 14689
+- ASTM D2487
+- British Standard 5930
+- Brazilian / Portuguese ABNT
+
+If a borehole contains descriptions in multiple standards, the first alphabetically is used for visualization.
+
+### Q: What databases can GeoDin Ground connect to, and does it work offline?
+
+GeoDin Ground connects to both **file-based** GeoDin databases (MS Access .accdb) and **client-server** databases (PostgreSQL, Oracle, MS SQL Server). If GeoDin Core is installed on the same machine, existing database connections are discovered automatically; manual connections can also be configured.
+
+Connectivity is only needed at import time. With a local file database, no network is needed at all. After import, all borehole data resides in the Civil 3D drawing and works fully offline. Data flow is one-way (read-only) — to get updated data, re-import from the database.
 
 ---
 
@@ -87,6 +111,8 @@ GeoDin offers a **fully native AGS workflow** for AGS 4.1.1 and AGS 4.0.4 — an
 - **Lifecycle:** import AGS → edit natively in the AGS object type (borehole logs, geological descriptions, lab results) → export validated AGS — no manual conversion to/from Excel or CSV.
 
 The legacy G1 object type and G1 AGS Exporter remain available for projects that use that workflow. Both GeoDin (full import + export) and GeoDin Onsite (export only) are listed by the AGS Committee.
+
+**Technical requirements:** The AGS Importer and Exporter are delivered as **plugins** installed from GeoDin's server (System side > Connecting). They require **GeoDin 15.4 or higher** and the **.NET 8 Desktop Runtime** (GeoDin prompts and links to the Microsoft download if missing). On a Microsoft Access database, the importer creates the required AGS tables automatically; on a client-server database (PostgreSQL, Oracle, MS SQL Server) the AGS object types must be registered once manually by creating an "AGS 4", "AGS 4 LBSG" and "AGS 4 PREM" object (requires table-creation permission). The importer can also **update existing data** from an uploaded AGS file.
 
 ### Q: What test types are included?
 
@@ -125,7 +151,7 @@ GeoDin supports importing:
 - **Measurement/lab test data** from Excel, CSV, or text files into any test table.
 - **Data sequences** (CPT, seismic, measure-while-drilling) from CSV, text/ASCII, Excel, LAS, GEF, and GF files.
 - **AGS files** directly into the AGS object type.
-- **gINT databases** via the built-in gINT converter.
+- **gINT databases** via the built-in gINT converter, which converts the gINT **PROJECT**, **LITHOLOGY**, **POINT**, and **SAMPLING** groups into GeoDinML for import. If mandatory groups or parameters are missing, the converter reports exactly which ones need adjusting in the gINT file before conversion.
 - **GeoDin Onsite field data** via GeoDinML (XML) import.
 - **GIS data**: shape files, GeoJSON, geo-referenced JPEG, WMS services, grid files.
 - **ODBC connections** to external data sources.
@@ -171,10 +197,14 @@ Yes. Multiple users can collaborate on the same database simultaneously. With cl
 
 Yes. GeoDin Core can run completely offline on a laptop with a local Access database on the local hard drive, isolated from any external network. GeoDin Onsite works offline for up to 30 days without internet connectivity.
 
+### Q: Does GeoDin support US State Plane coordinate systems?
+
+Yes. GeoDin supports coordinate systems worldwide via EPSG codes, which include all US State Plane zones (e.g., NAD83 state plane systems). You select the coordinate system from the coordinate-system dictionary by its EPSG code — so if you know your zone by its Civil 3D-style code (e.g., MA83F), you look up the matching EPSG code once and can reuse it across projects. GeoDin can also transform borehole coordinates between systems (e.g., local grid to state plane, or Gauss-Krüger to UTM). For help identifying the right EPSG code for your state, the support team can assist.
+
 ### Q: What are the system requirements?
 
-- **GeoDin Core:** Requires a Windows operating system.
-- **GeoDin Onsite:** Requires Windows 10 or Windows 11 (it is NOT available for iOS or Android).
+- **GeoDin Core:** Requires Windows 10/11 64-bit. For client-server backends, the matching 64-bit database client is needed (SQL Server Native Client/ODBC driver, PostgreSQL psqlODBC, or Oracle Instant Client). The AGS plugins additionally require GeoDin 15.4+ and the .NET 8 Desktop Runtime.
+- **GeoDin Onsite:** Requires a Windows tablet, laptop, or desktop (Windows 10 or 11) plus the **.NET 8 runtime** — Onsite prompts and redirects to Microsoft's download page if it's missing. It is NOT available for iOS or Android.
 - **GeoDin Ground:** Requires Autodesk Civil 3D 2025 or 2026 (versions 2024 and earlier are not supported).
 
 ### Q: How do I install GeoDin?
@@ -250,11 +280,17 @@ Yes. GeoDin has a **built-in GIS map** that uses OpenStreetMap as the base map. 
 - "Mini graphics" — small borehole log previews displayed as markers on the map.
 - Map export with branded title blocks, logos, and legends.
 
+### Q: Can I see boreholes from all my projects on one map?
+
+Yes. Because GeoDin stores all projects in one centralized database (rather than one file per project, as in gINT), you can build a "master database" view: every borehole, CPT, and monitoring point your organization has ever logged, visible together on the built-in GIS map. Cross-project queries let you pull historical data into new work — for example, referencing nearby borings from past projects when scoping a new site — and report templates can combine objects from different projects. This is one of the main reasons firms move away from file-per-project tools.
+
 ### Q: Does GeoDin integrate with ArcGIS?
 
 Yes, through two paths:
-1. **Via Civil 3D:** GeoDin data flows from GeoDin Ground through Civil 3D into ArcGIS using the free ArcGIS for AutoCAD plug-in. Boreholes can be published as feature layers in ArcGIS Online with attached borehole logs.
+1. **Via Civil 3D:** GeoDin data flows from GeoDin Ground through Civil 3D into ArcGIS using the free ArcGIS for AutoCAD plug-in. Boreholes can be published as feature layers in ArcGIS Online with attached borehole logs. As demonstrated at Autodesk University 2025, GeoDin Ground and ArcGIS for AutoCAD work in tandem so that borehole locations and supporting documents stay synchronized between Civil 3D and GIS web layers — the same data the engineer works with in Civil 3D is visible to teammates in the office and on-site, with no re-export.
 2. **Direct integration (planned):** GeoDin and Esri are actively developing a direct integration to move data into ArcGIS Online without requiring Civil 3D. Timeline is potentially end of 2026 or early 2027.
+
+In practice, GIS supports the geotechnical workflow in three ways: **planning site investigations** (using terrain, geology maps, and existing infrastructure to decide where to drill), **feeding historical borehole data** stored in ArcGIS Online or ArcGIS Enterprise into GeoDin, and **sharing results with stakeholders** — 3D borehole models, interpolated surfaces, and boring logs published to a web map that project managers and field teams open in a browser.
 
 ### Q: Does GeoDin work with QGIS?
 
@@ -309,11 +345,16 @@ Not yet. A **REST API** is planned and actively being developed, targeted for en
 In the meantime, data can be accessed via:
 1. **Batch export** (Excel, CSV, AGS, Leapfrog format — available today).
 2. **Direct SQL access** to the database (for advanced users).
-3. **Custom plug-ins** developed by the GeoDin team for specific client needs.
+3. **COM API** — GeoDin can act as a COM server, letting external applications (e.g., a GIS) control the GeoDin interface, run methods, and pull data or graphic images from the database. Documented for software developers at docs.geodin.com.
+4. **Custom plug-ins** — external functions can be embedded into the GeoDin interface as method symbols, developed by the GeoDin team for specific client needs.
 
 ### Q: Does GeoDin support BIM/IFC?
 
-GeoDin ground data will be part of the **IFC 4.3 standard** for BIM. Currently, IFC export is not directly available from GeoDin, but Civil 3D can produce IFC 4.3 geotechnical strata and borehole data after import from GeoDin Ground. IFC classification mapping in Civil 3D must be set up manually. Full native IFC 4.3 support is planned.
+Yes, via Civil 3D. Because GeoDin Ground generates **native Civil 3D surfaces and 3D solids**, the ground model travels with your design when you export from Civil 3D to **IFC 4.3** for a BIM handoff — downstream BIM consumers receive the structure together with the ground it sits in. IFC classification mapping in Civil 3D must be set up manually, and there is no direct IFC export from GeoDin itself.
+
+### Q: Does GeoDin integrate with geotechnical analysis tools like Rocscience (Slide, RS2), GeoStudio, or Plaxis?
+
+There is no live, refreshable link to analysis packages today. The current pathway is data exchange: export your borehole data, cross sections, or ground-model geometry from GeoDin (Excel, CSV, DXF, AGS) or via the Civil 3D model built with GeoDin Ground, then bring it into your analysis tool. Many teams find the Civil 3D pathway already removes most of the manual rebuilding. GeoDin is a data management and visualization platform — it is designed to feed your existing analysis workflow, not replace it. If a specific analysis integration matters to your team, the GeoDin team welcomes that input for the roadmap.
 
 ---
 
@@ -341,13 +382,24 @@ Yes. Dictionaries (e.g., investigation methods, soil types, sampling methods, co
 
 ## KNOWN LIMITATIONS (HONEST ANSWERS)
 
+### Q: What are GeoDin Ground's current limitations?
+
+GeoDin Ground is deliberately scoped to ground visualisation inside Civil 3D. Current limitations (per the public roadmap page):
+- **Import is one-way:** edits in Civil 3D never propagate back to the GeoDin database (by design, to protect the database).
+- **Layer matching is by soil type only:** in complex stratigraphies, distinct layers of the same soil type may be connected; use virtual logs to constrain the interpolation.
+- **No standards-compliant hatching in Civil 3D:** soil units show as layer colours; for report-quality cross sections with hatching, use GeoDin itself (11 hatching standards).
+- **Not yet visualised in Civil 3D:** samples, classification test results, CPT detail, SPT values, and groundwater readings (all remain available in GeoDin and via attached documents).
+- **No dedicated cross-section command yet** — use Civil 3D's native alignment/section tools.
+
+Roadmap (directional, no committed dates): richer layer-matching inputs (geological age, genesis), a native cross-section command, expanded volumetric quantity calculations, and better merging of geophysics data.
+
 ### Q: Can GeoDin import PDF borehole logs?
 
 Not yet. There is currently no automated PDF-to-data import capability. When data is only available as PDFs, manual data entry is required. However, **AI-based PDF borehole log digitization** is under development (proof of concept completed). GeoDin is seeking a client partner to co-develop this feature using real-world data.
 
 ### Q: Does GeoDin run on Mac or mobile?
 
-No. GeoDin Core requires **Windows**. GeoDin Onsite requires **Windows 10 or 11** (not available for iOS or Android). There is no Mac or Linux version.
+No. GeoDin Core requires **Windows**. GeoDin Onsite requires **Windows 10 or 11** (not available for iOS or Android), and is designed for tablets and laptops rather than smartphones — full geotechnical logging (layers, samples, tests, well design) is too data-rich to work well on a six-inch phone screen. Rugged Windows tablets are the recommended field device. There is no Mac or Linux version.
 
 ### Q: Does GeoDin do liquefaction analysis or advanced geotechnical analysis?
 

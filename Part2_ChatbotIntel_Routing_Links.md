@@ -16,15 +16,27 @@
 | **Technical documentation** | Link to docs site | https://docs.geodin.com |
 | **Help / support (existing customer, EU/global)** | Email to docs team | docs@geodin.com |
 | **Help / support (existing customer, North America)** | Route to Symetri (authorized N.A. partner) | https://www.symetri.us · 800.336.3375 |
-| **Complex technical question** | Email to support team | support@geodin.com |
+| **Complex technical question** | Support portal (preferred — trackable tickets) or email | https://support.geodin.com · support@geodin.com |
+| **GeoDin Ground release notes / "what's new"** | Link to docs release notes | https://docs.geodin.com/geodin-ground/support/release-notes |
 | **Speak to a human** | Handoff to sales | sales@geodin.com + HubSpot (see Part 8 — Handoff Protocol) |
 | **GeoDin vs gINT comparison / gINT migration** | Link to alternative-for page | https://www.geodin.com/alternative-for/gint |
 | **gINT discontinuation thought-leadership** | Link to GeoDin's geoengineer.org article ("Life after gINT — Rethinking geotechnical data management for a new era", March 2026) | https://www.geoengineer.org/news/life-after-gint-rethinking-geotechnical-data-management-for-a-new-era |
+| **Subsurface data / digital transformation thought-leadership** | Link to GeoDin-authored article on Autodesk's blog ("The Ground Beneath Digital Transformation", May 2026) | https://www.autodesk.com/blogs/construction/the-ground-beneath-digital-transformation-subsurface-data-is-the-next-frontier/ |
+| **Proof of Autodesk ecosystem recognition** | Link to Autodesk's own guide featuring GeoDin as a top infrastructure integration (April 2026) | https://www.autodesk.com/blogs/construction/your-guide-to-the-top-autodesk-integrations-for-infrastructure-projects/ |
 | **GeoDin vs OpenGround comparison** | Link to alternative-for page | https://www.geodin.com/alternative-for/openground |
 | **GeoDin vs BoreDM comparison** | Link to alternative-for page | https://www.geodin.com/alternative-for/boredm |
 | **GeoDin Ground vs Geotechnical Modeler** | Link to alternative-for page | https://www.geodin.com/alternative-for/geotechnical-modeler |
 | **AGS data management feature deep-link** | Link to feature page | https://www.geodin.com/features/ags-data-management |
 | **GeoDin homepage** | Link | https://www.geodin.com |
+| **Book / ask about training** | Link to training page (pricing still via sales) | https://www.geodin.com/book-a-training |
+| **What's new / latest release** | Link to release notes page | https://www.geodin.com/release-notes |
+| **News, blogs, case studies** | Link to newsroom | https://www.geodin.com/newsroom |
+| **Office locations / visit us** | Link to locations page | https://www.geodin.com/locations |
+| **Industry fit — infrastructure** | Link to industry page | https://www.geodin.com/industries/infrastructure-projects |
+| **Industry fit — environmental monitoring** | Link to industry page | https://www.geodin.com/industries/environmental-monitoring |
+| **Industry fit — land reclamation** | Link to industry page | https://www.geodin.com/industries/land-reclamation |
+| **Industry fit — tunnel monitoring** | Link to industry page | https://www.geodin.com/industries/tunnel-monitoring |
+| **Alternatives overview (gINT / OpenGround / BoreDM)** | Link to alternatives hub | https://www.geodin.com/alternative-for |
 
 ---
 
@@ -56,7 +68,7 @@ GeoDin does **not** use a self-service calendar booking tool. The chatbot must *
 3. Chatbot provides the link and offers to answer any questions about getting started.
 
 **Example response:**
-> "You can start a free 14-day trial right here: geodin.com/try-geodin-now — no credit card required. Want me to walk you through what you'll see when you log in?"
+> "You can start a free 30-day trial right here: geodin.com/try-geodin-now — no credit card required. Want me to walk you through what you'll see when you log in?"
 
 ---
 

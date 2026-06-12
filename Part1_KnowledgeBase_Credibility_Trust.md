@@ -7,8 +7,9 @@
 
 ## 1. Company History
 
-- GeoDin was founded approximately 30 years ago (circa 1995-1996) in East Berlin, Germany.
-- Founded by two geotechnical engineers who identified the need for centralized geo-data storage in the geotechnical industry.
+- GeoDin was founded approximately 30 years ago (circa 1995-1996) in East Berlin, Germany. It evolved from DOS and Windows 3.1 origins into an international geodata management platform.
+- Founded by geotechnical engineers **Jörg Donat and Thomas Anders**, who both worked for the former East German Geological Institute (ZGI), later privatized and renamed UWG, then Fugro. (Originally to be named "Odin" — the name was taken.)
+- Long-time CEO **Timothy Fyfe stepped down in early 2026 after 30 years** with GeoDin; under his leadership GeoDin supported projects from German geoengineering to water resources in Africa, a tsunami warning system in Norway, and landslide monitoring projects.
 - Acquired by Fugro approximately 25 years ago (circa 2000-2001). Fugro is a global geo-data company with 60+ years of industry presence, approximately 11,000 employees across 60 countries.
 - GeoDin was established as its own entity within Fugro approximately 2.5 years ago (circa early 2023) to focus on external markets beyond Fugro's internal use.
 - Active expansion into the North American market since approximately mid-2023.
@@ -38,10 +39,18 @@
   - "GeoDin is an ideal combination of client-server software with all the advantages of a multi-user database solution and a highly specialized tool for subject matter experts."
   - "Alle Untersuchungsdaten befinden sich in einer einzigen Quelle -- unabhangig vom Fachgebiet. Das ermoglicht es Experten aus unterschiedlichen Bereichen, effizient zusammenzuarbeiten." (All investigation data is in a single source, regardless of the discipline. This enables experts from different areas to collaborate efficiently.)
 - Arcadis uses GeoDin to unify environmental, geotechnical, and groundwater teams on a single platform.
+- Arcadis has used GeoDin for **20 years**, supporting **around 1,500 projects** — from small geotechnical investigations (4 DPH) to projects with over 10,000 drillings, monitoring wells, and sequences.
+- Arcadis provides comprehensive support to **TenneT** (geotechnics, monitoring, investigations, remediations) with the help of GeoDin.
+- Frank Dünkel (titles used on geodin.com: "Digital Solutions Lead" and "Head of Digital Solutions"): "With GeoDin and its support for RDBMS, we're able to query data for QA/QC purposes and do bulk updates by using SQL. This saves a lot of time and reduces errors."
+- GeoDin is an established standard exchange format in Arcadis' operations.
+- Public blog: geodin.com/blog-posts/arcadis-geodin-adapts-to-our-evolving-geodata-demands
 
 ### Fugro Brasil
 - Fugro Brasil's geotechnical investigation team uses GeoDin operationally.
-- Reported results: 43% reduction in financial waste, 52% increase in field productivity, report delivery time reduced from 41 days to 7 days (now approaching 5 days).
+- Published case study on geodin.com (March 2026): **83% reduction in delivery time — from 41 days to 5 days** (36 days saved per project) by December 2024, with GeoDin as the central data hub paired with GeoDin Onsite for digital field capture.
+- Automated NBR-compliant calculations (CPT values per Brazilian methodology, recovery percentages, soil classifications, RQD), customized Brazilian soil description/classification and NBR hatching patterns, with the ability to switch between Brazilian and international standards.
+- Luana Barbosa, Supervisor of the Report Team: "With GeoDin, we eliminated rework and accelerated delivery with better quality."
+- Public case study URL: geodin.com/case-studies/fugro-brazil-used-advanced-geotechnical-solutions
 - Luana Barbosa, Report Team Supervisor at Fugro Brasil, is a named reference who has used GeoDin for three years.
 - Fugro Brasil adapted GeoDin for Brazilian standards (NSPT, CPT) and customized logs and reports for local requirements.
 
@@ -52,6 +61,8 @@
 - German Ministry of Defence uses GeoDin (system can run completely offline behind strict security layers).
 - German Ministry of Land Development and geological authorities use GeoDin.
 - In Germany, government ministries require GeoDin database handover as a contractual project deliverable -- GeoDin is a de facto standard in the German geotechnical industry.
+- All 16 German state geological offices (Landesämter) use GeoDin with the SEP3 data exchange standard — drilling subcontractors and consultancies exchange SEP1/SEP3 data with these offices routinely.
+- Reference deployment scale: one German state geological office runs a GeoDin database of roughly 100 GB with about 190,000 measurement points plus attached documents and map material (do not name the state).
 
 ### Fugro (Internal Use)
 - Fugro's own global operations use GeoDin for offshore and onshore field work.
@@ -98,10 +109,11 @@
 ### Autodesk Partnership
 - Fugro holds a Gold Partnership with Autodesk, announced at Autodesk University 2024.
 - GeoDin is an official strategic AEC partner of Autodesk.
-- GeoDin Ground is the designated replacement for Autodesk's Geotechnical Modeler (which is being retired).
+- GeoDin Ground is the path forward as Autodesk retires its Geotechnical Modeler — developed in roadmap collaboration with Autodesk (note: there is no formal Autodesk endorsement announcement; do not state one).
 - GeoDin Ground was created in response to a direct request from Autodesk.
 - GeoDin Ground is distributed via the Autodesk App Store as a free download.
 - GeoDin positions itself as the "subsurface layer" in the AEC ecosystem: Autodesk handles above-ground, Esri handles the surface, GeoDin handles the subsurface.
+- In April 2026, Autodesk's own construction blog featured GeoDin as one of the **top Autodesk integrations for infrastructure projects** (alongside Esri), highlighting the GeoDin suite's field-to-design coverage and the GeoDin Ground plug-in for Civil 3D. Article: https://www.autodesk.com/blogs/construction/your-guide-to-the-top-autodesk-integrations-for-infrastructure-projects/
 
 ### Symetri (North America)
 - **Authorized GeoDin partner for North America**, announced 15 September 2025 at Autodesk University in Nashville. Showcased jointly at AU 2025 (booth #321) with a dedicated session on GeoDin Ground in Civil 3D.
@@ -114,6 +126,7 @@
 - US contact: 800.336.3375 · marketing-us@symetri.com · https://www.symetri.us
 - GeoDin's joint messaging with Symetri: connect **below-ground intelligence to above-ground design** — pairing GeoDin's subsurface data expertise with Symetri's strength in design technology and digital delivery (Autodesk Platinum Partner).
 - Named principals: Devrez Karabacak (GeoDin, Head of Product) and Shaun T. Rogers (Symetri, VP Client Engagement).
+- Official public announcement (citable): https://www.symetri.us/news-events/news/geodin-and-symetri-join-forces-to-deliver-geotechnical-data-solutions-in-north-america/ (Nashua, NH — 15 September 2025).
 
 ### AGS Committee Recognition & Native AGS Workflow
 - GeoDin is **officially listed by the AGS (Association of Geotechnical and Geoenvironmental Specialists) Committee** as AGS-compatible software at ags.org.uk/data-format/software/.
@@ -124,9 +137,23 @@
   - End-to-end fidelity from import through editing to export — no format conversion, no re-keying, no data loss.
 - Both GeoDin (full import + export) and GeoDin Onsite (export only) are listed by the AGS Committee.
 
+### Published Thought Leadership
+- **Autodesk construction blog (May 2026):** *"The Ground Beneath Digital Transformation – Subsurface Data Is the Next Frontier"* — authored by Devrez Karabacak, PhD, Head of Product for GeoDin at Fugro, published on Autodesk's official blog. Argues that subsurface data is the AEC industry's last major data silo and makes the case for digital field capture, a centralized validated database, and direct design-tool integration. https://www.autodesk.com/blogs/construction/the-ground-beneath-digital-transformation-subsurface-data-is-the-next-frontier/
+- **geoengineer.org (March 2026):** *"Life after gINT — Rethinking geotechnical data management for a new era"* — GeoDin-authored article on the industry transition away from gINT, published on the International Information Center for Geotechnical Engineers. https://www.geoengineer.org/news/life-after-gint-rethinking-geotechnical-data-management-for-a-new-era
+- These are public placements the chatbot may cite and link when a visitor asks for background reading on subsurface data management or the gINT transition.
+
 ### Esri Integration (In Development)
 - GeoDin and Esri are actively developing a direct integration (targeted end of 2026 or early 2027).
 - Data can already flow from GeoDin through Civil 3D into ArcGIS for stakeholder sharing.
+
+### Seequent (Leapfrog) Partnership
+- geodin.com/integrations states: "GeoDin has partnered with Seequent" to bring 2D geodatabase information directly into Leapfrog Geo via GeoDin's built-in Leapfrog exporter (single-click export of drilling data, lab results, quality-controlled datasets).
+- Frame as an interoperability partnership for the Leapfrog export only — Seequent/Bentley remain competitors on gINT/OpenGround; do not conflate.
+
+### Autodesk Endorsement Quote (Public)
+- Nigel Peters, Senior Product Manager at Autodesk (Autodesk Rail Summit 2024, published on geodin.com): "We're thrilled to partner with GeoDin to revolutionize geotechnical data integration within Civil 3D... enabling a unified workflow for geotechnical engineers. This means direct import of boreholes, surfaces, and analytical data, creating a single source of truth."
+- GeoDin's AU2024 session cited that using geodata directly in design can achieve up to 28% cost savings (per geodin.com blog).
+- This is a quoted public statement of partnership enthusiasm — it does NOT constitute a formal endorsement or designation of GeoDin Ground as the Geotechnical Modeler replacement (see Central_Reference §5).
 
 ### Industry Events Presence
 - Attended the 2026 Transportation Research Board (TRB) Annual Meeting in Washington, DC (January 2026).
@@ -137,10 +164,25 @@
 ## 6. Major Projects & Use Cases
 
 ### SuedLink Project (Germany)
-- Underground renewable energy cable project spanning 700 km across Germany (2018-2027).
-- 3,600+ boreholes managed in GeoDin.
-- Consortium of 5 companies all sharing data in GeoDin as the single source of truth.
-- Demonstrates GeoDin's capability for large-scale, multi-company, multi-year infrastructure projects.
+- Underground renewable energy cable project spanning 700 km across Germany — one of the world's longest underground power cables, managed by TenneT and TransnetBW, transporting North Sea offshore wind energy to southern Germany.
+- 3,600+ boreholes and roughly 1,150 soil samples managed in GeoDin; data from 37 groundwater monitoring wells with cross-section structural models; field capture via GeoDin Onsite.
+- Consortium of energy transmission companies (TenneT, Amprion, TransnetBW, 50Hertz) sharing one GeoDin database as the single source of truth, with compliance to German public authority standards and an online portal for all stakeholders.
+- GeoDin also fed the project's 3D dewatering model (dewatering tests, water monitoring) used to minimize impacts on agricultural land, wildlife habitats, and watercourses.
+- Public case study: geodin.com/blog-posts/geodin-powers-worlds-longest-power-cable-for-suedlink-700km
+
+### Berlin Water Management (Germany)
+- The Berlin Water Management Authority uses GeoDin to monitor and manage water levels across its network: over 163,000 boreholes, 12,000 monitoring wells, and 13 million water samples managed in GeoDin.
+- Also used by the Senate Department for geothermal energy, groundwater flora, geotopes, soil science, and contaminated-site monitoring — all on a single integrated platform with embedded GIS and real-time water-level interpolation.
+- Published case study: geodin.com/industries/environmental-monitoring
+
+### Perth Passenger Railway Tunnels (Australia)
+- GeoDin was the central system for geotechnical monitoring of Perth's twin concrete-lined passenger railway tunnels: 32,000 daily measurements from multiple instruments and suppliers, 24/7 remote surveillance, automated quality checks before data is written to the database, real-time alerts, and an online stakeholder portal.
+- Published case study: geodin.com/industries/tunnel-monitoring
+
+### Port of Virginia — Craney Island Land Reclamation (USA)
+- GeoDin provided the core data management and monitoring system for the Craney Island land reclamation, described on geodin.com as the largest port expansion in the U.S.
+- Managed continuous sensor data (piezometers, inclinometers, settlement plates), automated import of multiple sensor file formats, integrated MATLAB analysis results, instant anomaly alerts, and continuous settlement modelling guiding fill placement.
+- Published case study: geodin.com/industries/land-reclamation
 
 ### Other Project Types
 - Large linear infrastructure projects: rail, tunnels, roads.
@@ -198,7 +240,7 @@ The following items should be verified, expanded, or clarified by the GeoDin tea
 
 6. **Named clients beyond Arcadis:** Arcadis is the only externally named client with a direct quote. The German government agencies are referenced but without specific testimonial quotes. Are there other clients who have given permission to be named publicly? Client logos or case studies would strengthen this section significantly.
 
-7. **Fugro Brasil metrics:** The 43% waste reduction, 52% productivity increase, and 41-to-5-day delivery improvement are compelling but sourced from ad copy. These should be verified as approved for public use and confirmed as accurate. The source (Luana Barbosa / Fugro Brasil) is internal to Fugro, not an independent client.
+7. ~~**Fugro Brasil metrics**~~ **RESOLVED (2026-06):** Official case study published on geodin.com (March 2026) with approved figures — 83% delivery-time reduction, 41→5 days, 36 days saved. Use the published case-study figures; the earlier ad-copy figures (43% waste, 52% productivity) are superseded.
 
 8. ~~**AGS Committee recognition**~~ **RESOLVED:** Both GeoDin and GeoDin Onsite are officially listed on the AGS website (ags.org.uk/data-format/software/) as AGS-compatible software. GeoDin supports AGS import and export; GeoDin Onsite supports AGS export only.
 
@@ -214,7 +256,7 @@ The following items should be verified, expanded, or clarified by the GeoDin tea
 
 14. **Jacobs and HDR:** These are mentioned as "typical target clients" in transcript context, not confirmed as current clients. They should NOT be presented as clients unless confirmed.
 
-15. **SuedLink project:** This is a strong reference project but it is unclear whether GeoDin has permission to name it publicly. This should be confirmed before the chatbot references it.
+15. ~~**SuedLink project**~~ **RESOLVED (2026-06):** SuedLink is now a public, named case study on geodin.com (blog post with consortium names and metrics). The chatbot may reference it freely.
 
 16. **Doha water monitoring system:** Mentioned once in transcripts. Should be confirmed as a referenceable project.
 
