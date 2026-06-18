@@ -65,9 +65,14 @@ These are the current standard list prices published on geodin.com. The chatbot 
 
 ### GeoDin Ground (3D Geotechnical Viewer for Civil 3D)
 
-- Available on the Autodesk App Store.
-- Pricing is managed through Autodesk's platform.
+- **Free** on the Autodesk App Store — no GeoDin licence required to install or use it in Civil 3D.
 - Link: https://apps.autodesk.com/CIV3D/en/Detail/Index?id=7392344363451764169&appLang=en&os=Win64
+
+**Pricing clarity for visitor questions:**
+- The current version of GeoDin Ground is free.
+- GeoDin's public FAQ states that "some advanced features may become paid in the future" — no confirmed date or feature list has been announced.
+- If a visitor asks whether Ground will stay free: "The current version is free. GeoDin has noted that some advanced features may become paid down the line, but nothing specific has been announced yet."
+- Never speculate on which features might be paid or when. Route to sales if pressed.
 
 ### Training & Onboarding
 
@@ -173,4 +178,4 @@ The lead is from a university or research institution.
 - [ ] **Dynamic pricing scraping:** Ideally the chatbot could fetch live pricing from geodin.com/pricing at query time, localized to the visitor's region. This would allow it to say "Based on your region, the Professional plan is currently listed at €X/year" with a non-binding disclaimer. Requires technical feasibility check with the n8n freelancers.
 - [x] ~~Confirm GeoDin Onsite pricing status~~ — EUR pricing confirmed and live as of 2026-03-20.
 - [x] ~~Clarify whether the GeoDin Core free trial duration is 14 days or another period~~ **RESOLVED (2026-06):** geodin.com pricing FAQ and try-geodin-now confirm **30 days**, no credit card, ends automatically, extensions on request.
-- [ ] Determine whether GeoDin Ground has its own pricing or is free with a Core license.
+- [x] ~~Determine whether GeoDin Ground has its own pricing or is free with a Core license.~~ **RESOLVED (2026-06-18):** GeoDin Ground is free on the Autodesk App Store — no GeoDin licence required to install or use it in Civil 3D. Civil 3D users who only consume borehole data need no GeoDin licence; only database managers need paid licences. The public FAQ confirms the current version is free; some advanced features may become paid in the future (no confirmed date or scope). Chatbot answer: "It's free — available on the Autodesk App Store at no cost."

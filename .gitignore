@@ -1,0 +1,7 @@
+# Local n8n workflow exports — kept on disk, never committed to this PUBLIC repo
+# (may embed credential references). Backed up privately at ~/Backups/n8n-exports/.
+CHATBOT GEODIN.json
+MCP github.json
+
+# macOS noise
+.DS_Store
