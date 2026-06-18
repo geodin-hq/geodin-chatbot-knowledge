@@ -44,6 +44,8 @@ Key features:
 
 GeoDin Onsite is licensed per device per year (€495/device/year for existing GeoDin customers, €695/device/year standalone). A 1-month free trial with full functionality is available to all customers.
 
+The licence is **bound to the device's hardware** and is validated online at each launch, with a rolling 30-day offline window. If a device is replaced or its hardware changes significantly (e.g., disk or memory swap), contact support@geodin.com to re-bind the licence to the new device.
+
 ### Q: What is GeoDin Ground?
 
 GeoDin Ground is a **free plug-in for Autodesk Civil 3D** (available in the Autodesk App Store). It is the path forward as Autodesk retires its Geotechnical Modeler — built in roadmap collaboration with Autodesk (do not claim a formal Autodesk endorsement or designation).
@@ -51,7 +53,11 @@ GeoDin Ground is a **free plug-in for Autodesk Civil 3D** (available in the Auto
 Key features:
 - Renders 3D borehole sticks (cylinders) in Civil 3D with colour-coded soil layers, metadata, and ground descriptions.
 - Generates 3D surfaces and volumes from borehole data — visualize the subsurface as a 3D ground model.
-- Virtual boreholes: create synthetic boreholes to shape the ground model, test sensitivity, and identify areas needing more investigation.
+- Virtual boreholes (virtual logs): insert synthetic boreholes to shape the ground model, test sensitivity, and identify areas needing more investigation. Three creation modes:
+  - **Empty** — place the virtual log and type the layer stack by hand (e.g., to define a boundary condition).
+  - **Nearest Borehole** — copies the layer sequence of the closest real borehole, which you then adjust.
+  - **Surface Interpolation** — samples the currently generated ground model at the log's location to lock in its prediction as a constraint.
+  Virtual logs are not persisted to the GeoDin database — they exist only in the current Civil 3D drawing.
 - Volume/quantity calculations: intersect tunnel or excavation volumes with ground volumes to calculate cubic metres of each soil type for cost analysis.
 - Access documents (PDFs, photos, reports) attached to boreholes directly from within Civil 3D.
 - Works with Civil 3D 2025 and 2026 versions.
@@ -310,6 +316,16 @@ Yes. GeoDin has a **QGIS plugin** available in the QGIS plugin library. GeoDin C
 
 Office engineers do not need to re-enter field logs — the data flows directly from the field into the database with full traceability.
 
+**File delivery modes (how data leaves the device):** Onsite supports two modes, configured per project:
+1. **No delivery (default):** Data stays on the device until the user manually exports the .geodinml file (USB, email, shared drive).
+2. **Shared network folder:** Onsite reads/writes a synced folder (OneDrive, Dropbox, Google Drive, or any sync service) — useful for field teams who want data pushed as soon as they reconnect.
+
+**Form ownership model (Publish / Retrieve / Revoke):** A form behaves like a single piece of paper — it exists in one place at a time:
+- **Publish** (as incomplete or final): sends the form to the shared folder; "Publish as final" hands it to the office.
+- **Retrieve:** takes a form back from the shared folder onto the device.
+- **Revoke:** pulls a finalised form back out (use with care).
+This guarantees two people can't overwrite each other's edits.
+
 ### Q: Does GeoDin Onsite enforce standard-compliant data entry?
 
 Yes. GeoDin Onsite includes the same dictionaries and standard-specific dropdown lists as GeoDin Core. When a standard is selected (e.g., ASTM), the app only shows valid options for soil descriptions, enforcing standard-compliant data entry in the field. Ground descriptions are auto-generated from the entered properties. It is described as a "foolproof system" that prevents data quality issues before they enter the workflow.
@@ -336,7 +352,7 @@ Onsite forms are customizable, but not directly by end users — customization i
 - **Excel:** Full import/export with configurable column mapping.
 - **AGS:** Import and export support.
 - **CAD (DXF):** Export for AutoCAD and similar software.
-- **BIM (IFC 4.3):** Ground data will be part of the IFC 4.3 standard via Civil 3D (planned).
+- **BIM (IFC 4.3):** Ground models export to **IFC 4.3** via Civil 3D's IFC exporter (one-time layer→IFC classification mapping required). No direct IFC export from GeoDin itself.
 
 ### Q: Does GeoDin have an API?
 
@@ -350,7 +366,7 @@ In the meantime, data can be accessed via:
 
 ### Q: Does GeoDin support BIM/IFC?
 
-Yes, via Civil 3D. Because GeoDin Ground generates **native Civil 3D surfaces and 3D solids**, the ground model travels with your design when you export from Civil 3D to **IFC 4.3** for a BIM handoff — downstream BIM consumers receive the structure together with the ground it sits in. IFC classification mapping in Civil 3D must be set up manually, and there is no direct IFC export from GeoDin itself.
+Yes, via Civil 3D. GeoDin Ground generates **native Civil 3D surfaces and 3D solids**, so the ground model travels with your design when you export from Civil 3D to **IFC 4.3** for a BIM handoff — downstream BIM consumers receive the structure together with the ground beneath it. One-time setup required: in Civil 3D you map GeoDin layer types to IFC classifications and save the mapping in your project template, so every export is consistent. Without that mapping the geometry still exports, but classification metadata is generic. The export is driven by Civil 3D's own IFC exporter — there is no direct IFC export from GeoDin itself.
 
 ### Q: Does GeoDin integrate with geotechnical analysis tools like Rocscience (Slide, RS2), GeoStudio, or Plaxis?
 

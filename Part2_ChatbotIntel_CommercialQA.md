@@ -50,7 +50,7 @@ Onsite licenses can also be assigned to drilling subcontractors.
 ### Q: Are there any additional costs beyond the license?
 
 The license includes Tier 1 support. Optional services include:
-- **Standard Onboarding Package:** **€1,200** — includes a 3-hour interactive beginner training session (up to 5 attendees) plus a 1-hour follow-up Q&A session within 2 weeks.
+- **Training and onboarding:** All training is arranged and priced by sales — there is no published list price. The standard starting point is a 3-hour beginner session (online, up to 3 attendees) followed by a 1-hour Q&A within two weeks; advanced (~6 hours) and custom expert tracks are also available. In North America, official GeoDin training is also delivered by Symetri. Never quote a training price — always redirect to sales. (The previous €1,200 Standard Onboarding figure was retired on 2026-05-07.)
 - **Custom training & consulting:** Case-by-case pricing — for advanced training, multi-site deployments, system integration, or specialized domain training. Contact sales for a quote.
 - **Cloud hosting:** If GeoDin hosts the database for you, the cloud hosting cost is separate from the license price.
 

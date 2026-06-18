@@ -51,7 +51,7 @@ GeoDin Onsite is a field data collection application for Windows tablets, laptop
 - **GPS integration:** Automatically logs device GPS coordinates during data capture.
 - **Offline operation:** Works without internet for up to 30 days. Data saved locally and uploaded when connectivity is restored.
 - **Supported field tests:** SPT, rock core recording (SCR/RQD), and other in-situ tests. Does not cover the full 60+ lab test types available in GeoDin Core.
-- **Data exchange:** Exports data as XML files (GeoDinML/GODML format). Can deliver to a central network folder or OneDrive.
+- **Data exchange:** Exports borehole and field data as **GeoDinML (.geodinml)** XML files for import into GeoDin Core. Form files use **.gdof** (single form) and **.gdob** (form bundle, e.g. a drilling report + sample picture log). Can deliver to a central network folder, OneDrive, Dropbox, or Google Drive.
 - **Form customization:** Customizable by GeoDin as a service (not end-user configurable) due to the complexity of underlying geotechnical standards.
 
 ### Who Uses It
@@ -79,6 +79,7 @@ GeoDin Ground is a free Autodesk Civil 3D plugin that visualizes subsurface geot
 - **IFC/BIM pathway:** Civil 3D can produce IFC 4.3 geotechnical strata and borehole data after import from GeoDin Ground (manual classification mapping required).
 - **Compatibility:** Civil 3D 2025 and 2026. Versions 2024 and earlier are not supported. Since v1.5.17 (Sep 2025), Ground also has improved support for Civil 3D in **imperial mode**, improved accuracy for complex/overlapping borehole data, and an updated demo database.
 - **Sample dataset included:** The plugin installer bundles a sample database (the Denver Demo Database) for exploration; it can also be downloaded separately from resources.geodin.com.
+- **Pricing (public FAQ):** The current version of GeoDin Ground is free on the Autodesk App Store. The GeoDin Ground FAQ notes that some advanced features may become paid in the future — no scope or date has been announced. When asked, say it's free today and avoid promising specific future pricing.
 
 ### Who Uses It
 - Civil and design engineers who need ground visibility within their CAD environment
@@ -118,6 +119,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 
 ### Current Versions (as of June 2026)
 - **GeoDin (desktop):** Major version **15** (current 15.x line; e.g., the AGS plugins require 15.4 or higher). The installer supports in-place upgrades from GeoDin 9.6 and 10 while retaining system configuration; older versions need assistance from support@geodin.com. Updates run in-app via **System Configuration > Update GeoDin**. Note: any GeoDin Licence Service from a previous installation must be uninstalled before reinstalling GeoDin 15.
+  Most recent release: **v15.6.6.125** (18 June 2026) — KA6 object-type protection in GeoDin Shuttle (Shuttle warns and hides unsupported object types such as KA6; the full version is needed for unrestricted access), minimum-GeoDin-version enforcement per object type, automatic Access Violation telemetry, and a new CSV-based translation system/editor. Note: this adds *protection for KA6 objects in Shuttle* — it does not add full KA6 standard support to GeoDin Core (KA6 support status is unchanged).
 - **GeoDin Ground:** **v1.5.17** (released 18 September 2025). Prior milestones: v1.0.0 (2 June 2025, Civil 3D 2025/2026 compatibility) and 0.9.0 (17 April 2025, first release).
 - **GeoDin Onsite:** Continuous releases via an automatic update check at launch — no public version numbering. New versions are backward compatible (old data opens in new versions) but not forward compatible; teams should stay on the latest version together.
 
