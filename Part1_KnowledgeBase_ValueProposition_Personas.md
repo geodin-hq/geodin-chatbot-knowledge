@@ -287,7 +287,7 @@ Key differentiators across all competitors:
 
 7. **Mining industry:** GeoDin mentions mining applications in passing but no detail was found on specific mining-oriented features or workflows. If mining is a target vertical, this needs expansion.
 
-8. **New UI (Beta design mode):** A completely reimagined UI is announced for first half 2026. The chatbot should be aware of this to manage expectations about the current interface, which is acknowledged as having legacy UX friction points.
+8. **New UI (Beta design mode) — now shipping:** The first Beta version of the modernized UI shipped in release 15.5.0.185 (April 2026): a customizable title bar unifying top navigation, layout controls, Help/Info, and a toggle between Beta and Classic design (Classic remains unchanged). The chatbot can say the new UI is available today as an opt-in Beta inside GeoDin, with the classic interface still the default.
 
 9. ~~**US market specifics**~~ **RESOLVED (2026-05-07):** North American support, training, and customization are handled by Symetri (Autodesk Platinum Partner, GeoDin's authorized N.A. partner since Sept 2025). US prospects with **support questions** should be routed to Symetri (https://www.symetri.us, 800.336.3375). Sales inquiries can be handled by GeoDin directly (sales@geodin.com) or via Symetri's local team — whichever the prospect prefers.
 

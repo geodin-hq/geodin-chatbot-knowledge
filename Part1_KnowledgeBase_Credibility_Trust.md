@@ -261,4 +261,4 @@ The following items should be verified, expanded, or clarified by the GeoDin tea
 
 16. **Doha water monitoring system:** Mentioned once in transcripts. Should be confirmed as a referenceable project.
 
-17. **KA5/KA6 compliance:** The DACH ad campaign reveals that GeoDin currently supports KA5 but not yet KA6 (published July 2024). This is not a gap in this document per se, but the chatbot should be aware that GeoDin does not yet support KA6 if asked about German soil mapping standards.
+17. ~~KA5/KA6 compliance~~ **RESOLVED (2026-07):** GeoDin 15.6 (release 15.6.6.125, 18 June 2026) introduced the KA6 object type per the public release notes on geodin.com/release-notes, supporting the 6th edition of the German Soil Survey Guidelines (mandatory in Germany since July 2024). The chatbot may now say GeoDin supports both KA5 and KA6.

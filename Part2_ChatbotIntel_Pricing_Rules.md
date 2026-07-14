@@ -37,11 +37,12 @@ These are the current standard list prices published on geodin.com. The chatbot 
 |---|---|---|---|
 | Individual License | ~€2,395/year | ~$2,011/year | Single named user |
 | Professional (shared) License | ~€3,395/year | ~$2,850/year | Shared/team license |
-| Educational License | ~€100/year | ~$100/year | Accredited institutions only |
+| Educational License | ~€100/year | ~$100/year | Includes **all features of the Professional plan**, for verified educational members — professors, researchers, or graduate students. Not self-service: set up via the sales team (Contact sales) |
 
 - Pricing is **annual subscription**.
 - Prices shown on the website vary by region and may change.
 - Individual and Professional licenses can be purchased directly via website checkout.
+- The pricing page states that **tiered discounts are offered for all license options** — the chatbot may acknowledge that tiered/volume discounts exist and route to sales for specifics (never quote a discount amount).
 
 ### GeoDin Onsite (Field Data Capture)
 
@@ -56,6 +57,7 @@ These are the current standard list prices published on geodin.com. The chatbot 
 - Enterprise deployments (**20+ devices**) → custom quote required.
 - No feature gating between trial and paid versions.
 - **Status:** Onsite EUR pricing is confirmed and live.
+- Both Onsite variants (Standalone €695/year, Ecosystem €495/year) can now also be **purchased directly via the website checkout** at geodin.com/pricing#onsite, in addition to the sales route.
 
 **Why per-device pricing matters (for AI to explain the model, not the numbers):**
 - Field tablets are shared across shifts, crews, and projects.
@@ -108,6 +110,8 @@ These are the current standard list prices published on geodin.com. The chatbot 
 | Geographic or regional pricing | No | Redirect to pricing page or sales |
 | Custom enterprise pricing | No | Redirect to sales |
 | Educational pricing exists | Yes | Share the €100/$100 educational license price. "We offer educational licenses at €100/year for accredited institutions." |
+
+Tier differentiator (per geodin.com/features): using **client-server databases (Oracle, MS SQL Server, PostgreSQL, MySQL) requires the GeoDin Professional plan**; the Individual plan works with file-based (Access) databases. [Team to verify before hard-quoting — stated once as a parenthetical on the features page.]
 
 ---
 

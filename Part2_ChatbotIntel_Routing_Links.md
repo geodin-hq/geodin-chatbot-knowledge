@@ -26,6 +26,8 @@
 | **GeoDin vs OpenGround comparison** | Link to alternative-for page | https://www.geodin.com/alternative-for/openground |
 | **GeoDin vs BoreDM comparison** | Link to alternative-for page | https://www.geodin.com/alternative-for/boredm |
 | **GeoDin Ground vs Geotechnical Modeler** | Link to alternative-for page | https://www.geodin.com/alternative-for/geotechnical-modeler |
+| **Autodesk geotechnical solutions page (evergreen partnership proof point)** | Link to Autodesk's permanent solutions page featuring GeoDin Ground | https://www.autodesk.com/solutions/geotechnical-engineering |
+| **ArcGIS / Esri integration questions** | Link to the Esri ArcGIS integration page | https://www.geodin.com/integrations/esri-arcgis |
 | **AGS data management feature deep-link** | Link to feature page | https://www.geodin.com/features/ags-data-management |
 | **GeoDin homepage** | Link | https://www.geodin.com |
 | **Book / ask about training** | Link to training page (pricing still via sales) | https://www.geodin.com/book-a-training |
