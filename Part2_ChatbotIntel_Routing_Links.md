@@ -9,7 +9,7 @@
 | Intent | Action | Destination |
 |---|---|---|
 | **Start a free trial** | Link to trial page | https://www.geodin.com/try-geodin-now |
-| **Try GeoDin Ground** | Link to Autodesk App Store | https://apps.autodesk.com/CIV3D/en/Detail/Index?id=7392344363451764169&appLang=en&os=Win64 |
+| **Try GeoDin Ground** | Link to Autodesk Marketplace listing (canonical; old App Store URL points to the same app) | https://marketplace.autodesk.com/apps/e980e6d6-57f3-4de3-b311-0da8181b0ff6 |
 | **See pricing** | Link to pricing page | https://www.geodin.com/pricing |
 | **Book a demo** | Capture email, trigger sales handoff | Chatbot says: "Our sales team will reach out to book a demo." Trigger → sales@geodin.com + HubSpot |
 | **General sales inquiry** | Capture email, trigger sales handoff | sales@geodin.com + HubSpot |
@@ -26,6 +26,8 @@
 | **GeoDin vs OpenGround comparison** | Link to alternative-for page | https://www.geodin.com/alternative-for/openground |
 | **GeoDin vs BoreDM comparison** | Link to alternative-for page | https://www.geodin.com/alternative-for/boredm |
 | **GeoDin Ground vs Geotechnical Modeler** | Link to alternative-for page | https://www.geodin.com/alternative-for/geotechnical-modeler |
+| **Autodesk geotechnical solutions page (evergreen partnership proof point)** | Link to Autodesk's permanent solutions page featuring GeoDin Ground | https://www.autodesk.com/solutions/geotechnical-engineering |
+| **ArcGIS / Esri integration questions** | Link to the Esri ArcGIS integration page | https://www.geodin.com/integrations/esri-arcgis |
 | **AGS data management feature deep-link** | Link to feature page | https://www.geodin.com/features/ags-data-management |
 | **GeoDin homepage** | Link | https://www.geodin.com |
 | **Book / ask about training** | Link to training page (pricing still via sales) | https://www.geodin.com/book-a-training |
@@ -64,7 +66,7 @@ GeoDin does **not** use a self-service calendar booking tool. The chatbot must *
 1. Lead expresses interest in trying GeoDin.
 2. Chatbot determines which product:
    - **GeoDin Core / Onsite** → https://www.geodin.com/try-geodin-now
-   - **GeoDin Ground (Civil 3D plugin)** → https://apps.autodesk.com/CIV3D/en/Detail/Index?id=7392344363451764169&appLang=en&os=Win64
+   - **GeoDin Ground (Civil 3D plugin)** → https://marketplace.autodesk.com/apps/e980e6d6-57f3-4de3-b311-0da8181b0ff6
 3. Chatbot provides the link and offers to answer any questions about getting started.
 
 **Example response:**

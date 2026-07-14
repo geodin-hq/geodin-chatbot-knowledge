@@ -67,7 +67,7 @@ Civil 3D users do not need a GeoDin license to use GeoDin Ground — only the da
 ### Q: What is the latest version? What's new?
 
 - **GeoDin (desktop):** The current major version is **GeoDin 15** (15.x line). The setup supports direct upgrades from GeoDin 9.6 and 10 while keeping your system configuration; updates run in-app via System Configuration > Update GeoDin.
-- **GeoDin Ground:** The current version is **v1.5.17** (released 18 September 2025). It introduced **virtual logs** for customizing the ground model and better support for **Civil 3D in imperial mode**, plus accuracy improvements for complex or overlapping borehole data and an updated demo database. v1.0.0 (June 2025) brought Civil 3D 2025/2026 compatibility.
+- **GeoDin Ground:** The current version is **v1.6.22.0** (24 June 2026, per the Autodesk Marketplace listing), compatible with **Civil 3D 2025, 2026, and 2027**. Earlier: v1.5.17 (September 2025) introduced **virtual logs** for customizing the ground model and better support for **Civil 3D in imperial mode**, plus accuracy improvements for complex or overlapping borehole data; v1.0.0 (June 2025) brought Civil 3D 2025/2026 compatibility.
 - **GeoDin Onsite:** Updated continuously — the app checks for updates automatically at every launch and installs the latest version in one click. New versions always open data created in older versions (backward compatible); the reverse is not guaranteed, so teams should update together.
 
 Full release notes for GeoDin Ground: https://docs.geodin.com/geodin-ground/support/release-notes
@@ -292,9 +292,7 @@ Yes. Because GeoDin stores all projects in one centralized database (rather than
 
 ### Q: Does GeoDin integrate with ArcGIS?
 
-Yes, through two paths:
-1. **Via Civil 3D:** GeoDin data flows from GeoDin Ground through Civil 3D into ArcGIS using the free ArcGIS for AutoCAD plug-in. Boreholes can be published as feature layers in ArcGIS Online with attached borehole logs. As demonstrated at Autodesk University 2025, GeoDin Ground and ArcGIS for AutoCAD work in tandem so that borehole locations and supporting documents stay synchronized between Civil 3D and GIS web layers — the same data the engineer works with in Civil 3D is visible to teammates in the office and on-site, with no re-export.
-2. **Direct integration (planned):** GeoDin and Esri are actively developing a direct integration to move data into ArcGIS Online without requiring Civil 3D. Timeline is potentially end of 2026 or early 2027.
+Yes — geodin.com/integrations/esri-arcgis describes the GeoDin–Esri workflow: plan investigations in ArcGIS (Living Atlas, historic boreholes); capture and manage data in GeoDin; then **move borehole data both ways with ArcGIS Pro** — import borehole locations from an ArcGIS Pro point feature class into GeoDin, or export GeoDin boreholes to ArcGIS Pro as fully attributed point features with coordinate integrity preserved, with finished GeoDin reports attachable to borehole points. In ArcGIS Pro, boreholes become 3D solids (multipatch) and soil layers become surfaces; models can be published to ArcGIS Online as web scenes for browser-based stakeholder review. The Civil 3D pathway (GeoDin Ground + ArcGIS for AutoCAD) remains available for BIM/CAD/GIS three-way workflows. [Team to verify: whether the ArcGIS Pro exchange is a live connector or a guided export/import workflow — do not promise a live API sync.]
 
 In practice, GIS supports the geotechnical workflow in three ways: **planning site investigations** (using terrain, geology maps, and existing infrastructure to decide where to drill), **feeding historical borehole data** stored in ArcGIS Online or ArcGIS Enterprise into GeoDin, and **sharing results with stakeholders** — 3D borehole models, interpolated surfaces, and boring logs published to a web map that project managers and field teams open in a browser.
 
@@ -337,6 +335,16 @@ Yes. GeoDin Onsite supports **portable field printing of QR-coded sample labels*
 ### Q: Can I customize the Onsite field forms?
 
 Onsite forms are customizable, but not directly by end users — customization is provided as a service by the GeoDin team. This is because geotechnical standards in the background make user-level customization complex. You specify your needs, and GeoDin shapes the forms accordingly. Options include tabbed views vs. single-page layout, and custom test table configurations.
+
+One exception is user-controlled: showing/hiding and reordering pages within a form (for example, hiding the SPT page if you don't log SPT readings) is done directly by the user via the form's page-management controls, set once per project — no service request needed for that specific case.
+
+### Q: Does GeoDin Onsite protect against data loss or crashes?
+
+Yes. Onsite has an optional automatic backup feature (off by default, enabled in Configuration → Backups) that takes timed snapshots of the form you're working on and keeps a configurable number of previous versions (default 10) — restorable any time via Tools → Restore backups. Separately, every form is saved automatically whenever it's closed or Onsite exits, so you don't need to press Save routinely.
+
+### Q: How accurate is GPS capture in GeoDin Onsite?
+
+It depends on the configured source (Configuration → GPS): a device's built-in GPS chip or an external Bluetooth receiver (including survey-grade RTK) gives high accuracy and works offline. The Windows-based IP/Wi-Fi fallback is available on any device but is only accurate to within a few kilometres — **not suitable for geotechnical fieldwork**, use only when nothing better is available. Manual coordinate entry is also supported. Captured positions convert automatically into your project's coordinate system (EPSG code).
 
 ---
 
