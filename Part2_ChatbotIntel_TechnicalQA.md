@@ -67,7 +67,7 @@ Civil 3D users do not need a GeoDin license to use GeoDin Ground — only the da
 ### Q: What is the latest version? What's new?
 
 - **GeoDin (desktop):** The current major version is **GeoDin 15** (15.x line). The setup supports direct upgrades from GeoDin 9.6 and 10 while keeping your system configuration; updates run in-app via System Configuration > Update GeoDin.
-- **GeoDin Ground:** The current version is **v1.5.17** (released 18 September 2025). It introduced **virtual logs** for customizing the ground model and better support for **Civil 3D in imperial mode**, plus accuracy improvements for complex or overlapping borehole data and an updated demo database. v1.0.0 (June 2025) brought Civil 3D 2025/2026 compatibility.
+- **GeoDin Ground:** The current version is **v1.6.22.0** (24 June 2026, per the Autodesk Marketplace listing), compatible with **Civil 3D 2025, 2026, and 2027**. Earlier: v1.5.17 (September 2025) introduced **virtual logs** for customizing the ground model and better support for **Civil 3D in imperial mode**, plus accuracy improvements for complex or overlapping borehole data; v1.0.0 (June 2025) brought Civil 3D 2025/2026 compatibility.
 - **GeoDin Onsite:** Updated continuously — the app checks for updates automatically at every launch and installs the latest version in one click. New versions always open data created in older versions (backward compatible); the reverse is not guaranteed, so teams should update together.
 
 Full release notes for GeoDin Ground: https://docs.geodin.com/geodin-ground/support/release-notes

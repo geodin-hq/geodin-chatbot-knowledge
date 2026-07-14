@@ -67,8 +67,8 @@ These are the current standard list prices published on geodin.com. The chatbot 
 
 ### GeoDin Ground (3D Geotechnical Viewer for Civil 3D)
 
-- **Free** on the Autodesk App Store — no GeoDin licence required to install or use it in Civil 3D.
-- Link: https://apps.autodesk.com/CIV3D/en/Detail/Index?id=7392344363451764169&appLang=en&os=Win64
+- **Free** on the Autodesk Marketplace — no GeoDin licence required to install or use it in Civil 3D.
+- Link: https://marketplace.autodesk.com/apps/e980e6d6-57f3-4de3-b311-0da8181b0ff6
 
 **Pricing clarity for visitor questions:**
 - The current version of GeoDin Ground is free.

@@ -167,7 +167,7 @@ When a visitor asks about a competitor or alternative:
 - **Database-backed, not file-based:** Geotechnical Modeler was essentially a file importer — it visualized CSV/AGS files with no persistent geotechnical data management behind it. GeoDin Ground reads directly from a live GeoDin database, so models update from the single source of truth instead of fragile file exports. Database management is GeoDin's core business
 - **Free availability:** GeoDin Ground is a free plug-in available on the Autodesk App Store. No GeoDin license is required for Civil 3D users to view data
 - **Autodesk Gold Partnership:** Fugro holds a Gold Partnership with Autodesk, announced at Autodesk University 2024
-- **Active development:** GeoDin Ground has shipped regular releases (v1.0.0 in June 2025, v1.5.17 in September 2025 adding virtual logs and Civil 3D imperial-mode support) with planned features including cross-section generation in Civil 3D, geophysics visualization, and groundwater surfaces
+- **Active development:** GeoDin Ground has shipped regular releases (v1.0.0 in June 2025, v1.5.17 in September 2025 adding virtual logs and Civil 3D imperial-mode support, v1.6.22.0 in June 2026 with Civil 3D 2027 compatibility) with planned features including cross-section generation in Civil 3D, geophysics visualization, and groundwater surfaces
 - **Complete ecosystem:** Unlike Geotechnical Modeler which was only a viewer, GeoDin provides the full pipeline from field data collection (Onsite) through database management (Core) to design visualization (Ground)
 
 ### Where Geotechnical Modeler Had an Edge
