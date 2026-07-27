@@ -60,7 +60,7 @@ Key features:
   Virtual logs are not persisted to the GeoDin database — they exist only in the current Civil 3D drawing.
 - Volume/quantity calculations: intersect tunnel or excavation volumes with ground volumes to calculate cubic metres of each soil type for cost analysis.
 - Access documents (PDFs, photos, reports) attached to boreholes directly from within Civil 3D.
-- Works with Civil 3D 2025 and 2026 versions.
+- Works with Civil 3D 2025, 2026, and 2027 versions.
 
 Civil 3D users do not need a GeoDin license to use GeoDin Ground — only the database managers need licenses.
 
@@ -76,6 +76,7 @@ Full release notes for GeoDin Ground: https://docs.geodin.com/geodin-ground/supp
 
 GeoDin Ground visualizes borehole data using these description standards:
 - EN ISO 14688 / 14689
+- EN ISO 22475 (SEP 3 drilling report form), added in v1.6.22.0 (Jun 2026)
 - ASTM D2487
 - British Standard 5930
 - Brazilian / Portuguese ABNT
@@ -331,6 +332,8 @@ Yes. GeoDin Onsite includes the same dictionaries and standard-specific dropdown
 ### Q: Can I print sample labels with QR codes?
 
 Yes. GeoDin Onsite supports **portable field printing of QR-coded sample labels** using a compatible label printer. QR codes are automatically registered with unique identifiers linking to the correct sample ID, borehole, and project. Laboratories can scan the QR code to automatically identify the source project, location, and depth — providing full chain-of-custody traceability.
+
+The recommended, fully-tested printer model is the **Zebra ZQ600 Series** mobile thermal label printer; other ZPL-compatible thermal printers may also work but are not as thoroughly tested. A second, separately configurable printer can be set up for specialised labels (e.g. red labels for hazardous/contaminated samples).
 
 ### Q: Can I customize the Onsite field forms?
 
