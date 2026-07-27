@@ -12,7 +12,7 @@ GeoDin is a geotechnical data management software suite built by geotechnical en
 ### The GeoDin Suite consists of three integrated products:
 
 - **GeoDin (Core):** The central desktop platform for creating geodatabases, managing borehole and test data, running geotechnical calculations, generating reports, and ensuring standards compliance.
-- **GeoDin Onsite (free with subscription):** A Windows-based field data collection app that digitizes paper-based logging with real-time validation, QR sample labeling, and seamless import into GeoDin Core.
+- **GeoDin Onsite (per-device licence, free 1-month trial):** A Windows-based field data collection app that digitizes paper-based logging with real-time validation, QR sample labeling, and seamless import into GeoDin Core.
 - **GeoDin Ground (free):** An Autodesk Civil 3D plugin that visualizes subsurface data directly inside the design environment, enabling geotechnical-to-civil design collaboration.
 
 ### Key facts:
@@ -97,7 +97,7 @@ Infrastructure projects live in three digital worlds: above ground (designed in 
 - Standards compliance is enforced automatically, not dependent on individual user discipline
 - Full data traceability from field collection through to final deliverable
 - Floating/network licenses reduce cost: buy N licenses, share across a larger team with N concurrent users
-- Transparent pricing with no hidden add-ons; GeoDin Onsite and Ground included at no extra cost
+- Transparent pricing with no hidden add-ons; GeoDin Ground is included at no extra cost, and GeoDin Onsite is licensed per device with a free 1-month trial
 - Demonstrated at scale: SuedLink project (700 km, 3,600+ boreholes, 5 companies sharing one database)
 
 ---
@@ -263,7 +263,7 @@ GeoDin positions itself as an alternative to:
 
 Key differentiators across all competitors:
 - Full data ownership and customer-controlled residency
-- Free Civil 3D plugin (GeoDin Ground) and free field app (GeoDin Onsite) included
+- Free Civil 3D plugin (GeoDin Ground) included; GeoDin Onsite licensed per device, free 1-month trial
 - 30+ years of domain expertise backed by Fugro's global geotechnical credibility
 - 11+ international standards supported in a single platform
 - Transparent pricing displayed on website; no hidden costs

@@ -40,7 +40,7 @@ GeoDin Core is the central desktop platform for geotechnical data management. It
 ## 2. GeoDin Onsite
 
 ### What It Is
-GeoDin Onsite is a field data collection application for Windows tablets, laptops, and desktops. It digitizes traditional paper-based field logging, replacing handwritten forms with validated digital entry while maintaining the familiar paper-form layout. It is included with a GeoDin subscription at no additional cost.
+GeoDin Onsite is a field data collection application for Windows tablets, laptops, and desktops. It digitizes traditional paper-based field logging, replacing handwritten forms with validated digital entry while maintaining the familiar paper-form layout. It is licensed per device (not per user), with a free 1-month full-functionality trial; see Pricing for current rates.
 
 ### Key Capabilities
 - **Digital paper forms:** Touchscreen-native interface that replicates traditional driller paper forms. Supports both touchscreen and keyboard input.
@@ -76,6 +76,7 @@ GeoDin Ground is a free Autodesk Civil 3D plugin that visualizes subsurface geot
 - **Volume/quantity calculations:** Calculate cubic metres of soil/rock types along infrastructure paths for cost analysis and optimization.
 - **No GeoDin licence required for viewers:** Civil 3D plugin users do not need a GeoDin licence. Only the team members who manage and curate the database need licences.
 - **Data types visualized:** Borehole data, lithological layers, sample data, CPT data, 60+ geotechnical test types.
+- **Standards support (new in v1.6.22.0, Jun 2026):** Adds support for the SEP3 and EN ISO (EN ISO 22475) GeoDin object types, alongside existing standards support in Civil 3D.
 - **ArcGIS integration path:** Borehole data can flow from GeoDin through Civil 3D into ArcGIS Online via the ArcGIS for AutoCAD plugin, published as feature layers with attached logs.
 - **IFC/BIM pathway:** Civil 3D can produce IFC 4.3 geotechnical strata and borehole data after import from GeoDin Ground (manual classification mapping required).
 - **Compatibility:** Civil 3D **2025, 2026, and 2027** (per the Autodesk Marketplace listing, June 2026). Versions 2024 and earlier are not supported. Since v1.5.17 (Sep 2025), Ground also has improved support for Civil 3D in **imperial mode**, improved accuracy for complex/overlapping borehole data, and an updated demo database.
@@ -179,7 +180,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 - OS: Windows 10 or Windows 11 (64-bit)
 - For client-server databases, the matching 64-bit database client is needed: SQL Server Native Client or ODBC driver (MS SQL Server), psqlODBC (PostgreSQL), or Oracle Instant Client (Oracle). MS Access is recommended only for single-user environments and smaller projects. GeoDin connects via FireDAC, including to Azure-hosted SQL Server.
 - **GeoDin Onsite** requires the **.NET 8 runtime** (Onsite prompts and redirects to Microsoft's download page if missing). License is hardware-bound and validated online at each launch, with a 30-day offline window that resets on each successful validation.
-- **GeoDin Ground** requires Autodesk Civil 3D 2025 or 2026
+- **GeoDin Ground** requires Autodesk Civil 3D 2025, 2026, or 2027
 - The **AGS import/export plugins** require GeoDin 15.4 or higher plus the .NET 8 Desktop Runtime
 
 ### Scale
