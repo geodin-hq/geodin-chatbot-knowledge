@@ -194,7 +194,7 @@ Field (Onsite) --> Office (Core) --> Design (Ground)
 
 1. **GeoDin Core vs. GeoDin Desktop naming:** The transcript sources use both "GeoDin Core" and "GeoDin Desktop" interchangeably in places, while the marketing pages use just "GeoDin" for the main product. The chatbot should know whether these are the same product or if there is a distinction. The sources suggest they are the same, but this should be confirmed.
 
-2. ~~**Onsite pricing as standalone**~~ **RESOLVED:** GeoDin Onsite is priced per device/year: €695 standalone or €495 with ecosystem discount (existing GeoDin customers). Volume discounts from 6+ devices. Status is marked as "Draft (in development)" in the pricing document — confirm whether this is now live.
+2. ~~**Onsite pricing as standalone**~~ **RESOLVED:** GeoDin Onsite is priced per device/year: €695 standalone or €495 with ecosystem discount (existing GeoDin customers). Volume discounts from 6+ devices. Pricing is **confirmed and live as of 2026-03-20**, includes a 1-month full-functionality free trial with no feature gating, and Onsite is purchasable directly via website checkout at geodin.com/pricing#onsite. Authoritative source: `Part2_ChatbotIntel_Pricing_Rules.md`.
 
 3. **Number of supported languages:** Sources variously state 7 languages (marketing page lists English, German, French, Italian, Spanish, Portuguese, Turkish) and 8 languages (transcript mentions "8 languages: German, French, Russian, Spanish, English, Portuguese, and 2 others"). The exact list should be reconciled — specifically whether Russian, Italian, and Turkish are all supported, and what the remaining language(s) might be.
 
